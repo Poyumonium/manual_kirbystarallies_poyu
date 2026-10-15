@@ -1,0 +1,381 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
+    "core": {
+        "goal":{
+            "_comment": [
+                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
+            ],
+            "display_name": "The End Objective",
+                "description": [
+                    "Determines the goal for this manual",
+                    "Void Termina - Final Episode Attack: Complete the heart spears to assemble the Star Allies Sparkler and defeat Void Termina.",
+                    "Final Dimension - Happiest Curtain Call: Gather enough Friend Hearts to defeat the Retaliators and achieve a happy ending in Heroes in Another Dimension.",
+                    "Soul Melter - Clear: Defeat Void Soul at the end of Soul Melter",
+                    "Soul Melter EX - Clear: Defeat the Astral Birth at the end of Soul Melter EX"
+                ],
+            "aliases": {"easiest": 0},
+            "hidden": false
+        },
+        "death_link": {
+            "default": false
+        },
+        "filler_traps": {
+            "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
+          "values": {
+            "recommended": 0
+          },
+          "hidden":  true
+        }
+    },
+    "user": {
+        "_commented_out_option":{
+            "type": "Toggle",
+            "default": true
+        },
+        "goal":{
+            "type": "Choice",
+            "description": [
+                "Determines the goal for this manual",
+                "Void Termina - Final Episode Attack: Complete the heart spears to assemble the Star Allies Sparkler and defeat Void Termina.",
+                "Final Dimension - Happiest Curtain Call: Gather enough Friend Hearts to defeat the Retaliators and achieve a happy ending in Heroes in Another Dimension.",
+                "Soul Melter - Clear: Defeat Void Soul at the end of Soul Melter",
+                "Soul Melter EX - Clear: Defeat the Astral Birth at the end of Soul Melter EX"
+            ],
+            "values": {
+                "Void Termina - Final Episode Attack":0,
+                "Final Dimension - Happiest Curtain Call":1,
+                "Soul Melter - Clear":2,
+                "Soul Melter EX - Clear":3
+             },
+            "default": 1,
+            "allow_custom_value": false,
+            "group": "Goal"
+        },
+        "heart_spear_piece_amount":{
+            "type": "Range",
+            "description": [
+                "How many Heart Spear Pieces will be required to complete each Heart Spear?",
+                "Since there are four Heart Spears in total, the world will generate at least 4 times this amount."
+            ],
+            "range_start": 2,
+            "default": 16,
+            "range_end": 100,
+            "group": "Collectible Amounts"
+        },
+        "extra_heart_spear_pieces":{
+            "type": "Range",
+            "description": [
+                "How many additional Heart Spear Pieces will be generated?"
+            ],
+            "range_start": 0,
+            "default": 64,
+            "range_end": 400,
+            "group": "Collectible Amounts"
+        },
+        "friend_heart_amount":{
+            "type": "Range",
+            "description": [
+                "How many Friend Hearts will be required to befriend The Three Mage-Sisters?"
+            ],
+            "range_start": 10,
+            "default": 100,
+            "range_end": 860,
+            "group": "Collectible Amounts"
+        },
+        "extra_friend_hearts":{
+            "type": "Range",
+            "description": [
+                "How many additional Friend Hearts will be generated?"
+            ],
+            "range_start": 0,
+            "default": 20,
+            "range_end": 555,
+            "group": "Collectible Amounts"
+        },
+        "extra_spice_levels":{
+            "type": "Range",
+            "description": [
+                "How many additional Ultimate Spice Level UPs will be generated?",
+                "Nine are generated automatically for each level of the Ultimate Choice.",
+                "If you plan to challenge Soul Melter EX, you will need the three Extraordinary Components in addition to the nine default spice levels."
+            ],
+            "range_start": 0,
+            "default": 6,
+            "range_end": 30,
+            "group": "Collectible Amounts"
+        },
+        "starting_ally_count":{
+            "description": [
+                "How many Allies/Copy Abilities should you start with?"
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "default": 1,
+            "range_end": 10,
+            "group": "Ally Options" 
+        },
+        "unify_dedede_metaknight":{
+            "description": [
+                "Should Meta Knight and King Dedede be unlocked by befriending them after their respective boss fights?"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Ally Options" 
+        },
+        "unify_magesisters":{
+            "description": [
+                "Should The Three Mage-Sisters be unlocked by befriending them after their boss fight in Dimension V?"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Ally Options" 
+        },
+        "dupe_ability_count":{
+            "description": [
+                "How many duplicates of each copy ability should be added to the item pool?"
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "default": 0,
+            "range_end": 4,
+            "group": "Ally Options" 
+        },
+        "dupe_dream_friend_count":{
+            "description": [
+                "How many duplicates of each dream friend should be added to the item pool?"
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "default": 0,
+            "range_end": 4,
+            "group": "Ally Options" 
+        },
+        "starting_stage_count":{
+            "description": [
+                "How many stages should you start with?"
+            ],
+            "type": "Range",
+            "range_start": 1,
+            "default": 3,
+            "range_end": 10,
+            "group": "Stage Options" 
+        },
+        "unify_planets_and_moons":{
+            "description": [
+                "Should each of the seven moons in Far-Flung Starlight Heroes be locked behind clearing their respective planets?"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Stage Options" 
+        },
+        "unify_ex_stages":{
+            "description": [
+                "Should EX Stages be locked behind their respective Big Switches?"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Stage Options" 
+        },
+        "dupe_stage_count":{
+            "description": [
+                "How many duplicates of each stage should be added to the item pool?"
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "default": 0,
+            "range_end": 4,
+            "group": "Stage Options" 
+        },
+        "picture_piece_sanity":{
+            "description": [
+                "Will the common picture pieces found in levels have checks?",
+                "Does not apply to any pieces that are RNG dependent."
+            ],
+            "type": "Toggle",
+            "hidden": false,
+            "default": false,
+            "group": "Sanity Options" 
+        },
+        "one_up_sanity":{
+            "description": [
+                "Will the extra life items have checks?",
+                "Does not apply to any lives that are RNG dependent."
+            ],
+            "type": "Toggle",
+            "hidden": false,
+            "default": false,
+            "group": "Sanity Options" 
+        },
+        "blue_star_sanity":{
+            "description": [
+                "Will blue point stars have checks?",
+                "Does not apply to any stars that are RNG dependent."
+            ],
+            "type": "Toggle",
+            "hidden": false,
+            "default": false,
+            "group": "Sanity Options" 
+        },
+        "enable_heroes_in_another_dimension":{
+            "description": [
+                "Should Heroes in Another Dimension have any checks?",
+                "Note that if your goal involves befriending the Mage-Sisters, you will still need to clear Dimension V."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Heroes in Another Dimension" 
+        },
+        "hiad_gating_methods":{
+            "description": [
+                "How should Dimensions I-IV be unlocked?",
+                "no_gating: The dimensions are fully accessible from the start. Note that if ally restrictions are enabled, this option behaves identically to 'ally_item'.",
+                "ally_item: Dimensions are always accessible, but in order to progress, you'll need to find the ability/dream friend that corresponds to each door.",
+                "stage_item: Each of the four dimensions will be shuffled into the item pool with all the other stages. ",
+                "spear_gating: Each dimension is locked behind acquiring its respective friend action from each Heart Spear."
+            ],
+            "type": "Choice",
+            "values": {
+                "no_gating":0,
+                "ally_item":1,
+                "stage_item":2,
+                "spear_gating":3
+            },
+            "default": 1,
+            "group": "Heroes in Another Dimension" 
+        },
+        "hiad_enable_ally_restrictions":{
+            "description": [
+                "Should Heroes in Another Dimension be bound to the same available allies as the rest of the game?",
+                "If enabled, know that this may lead to long stretches of finding the right allies across the avaliable dimensions in some rare cases.",
+                "To mitigtate this, Dimension V's lobby is always accessible. Only its bosses and end goal are locked behind the main collectibles."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Heroes in Another Dimension" 
+        },
+        "hiad_all_dimensions_required":{
+            "description": [
+                "As an additional requirement for achieving the Happiest Ending, should the four main dimensions be cleared first?"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Heroes in Another Dimension" 
+        },
+        "hiad_friend_heart_sanity":{
+            "description": [
+                "Will the collectible Friend Hearts found in Heroes in Another Dimension have checks?"
+            ],
+            "type": "Toggle",
+            "hidden": false,
+            "default": false,
+            "group": "Heroes in Another Dimension" 
+        },
+        "hiad_unify_sanity":{
+            "description": [
+                "Will the Story Mode sanity options (1ups, pieces, etc.) apply to Heroes in Another Dimension?"
+            ],
+            "type": "Toggle",
+            "hidden": false,
+            "default": true,
+            "group": "Heroes in Another Dimension" 
+        },
+        "enable_ultimate_choice":{
+            "description": [
+                "Should bosses from the Ultimate Choice yield checks?",
+                "Note that if the goal involves Ultimate Choice, you will still need to defeat the specified end boss (Void Soul or Astral Birth Void)."
+            ],
+            "type": "Choice",
+            "values": {
+                "disabled":0,
+                "enabled":1,
+                "enabled_include_soul_melter":2,
+                "enabled_include_soul_melter_ex":3
+             },
+            "default": 1,
+            "group": "The Ultimate Choice" 
+        },
+        "trap_first_ally":{
+            "description": [
+                "How many 'Remove First Ally' traps should be set?"
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "default": 10,
+            "range_end": 99,
+            "group": "Trap Options" 
+        },
+        "trap_last_ally":{
+            "description": [
+                "How many 'Remove Last Ally' traps should be set?"
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "default": 10,
+            "range_end": 99,
+            "group": "Trap Options" 
+        },
+        "trap_any_ally":{
+            "description": [
+                "How many 'Remove Any Ally' traps should be set?"
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "default": 10,
+            "range_end": 99,
+            "group": "Trap Options" 
+        },
+        "trap_all_allies":{
+            "description": [
+                "How many 'Remove All Allies' traps should be set?"
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "default": 5,
+            "range_end": 99,
+            "group": "Trap Options" 
+        },
+        "trap_copy_ability":{
+            "description": [
+                "How many 'Remove Copy Ability' traps should be set?"
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "default": 10,
+            "range_end": 99,
+            "group": "Trap Options" 
+        },
+        "trap_no_jumps":{
+            "description": [
+                "How many 'No Jumps' traps should be set?"
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "default": 5,
+            "range_end": 99,
+            "group": "Trap Options" 
+        },
+        "trap_flip_controller":{
+            "description": [
+                "How many 'Flip Controller' traps should be set?"
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "default": 5,
+            "range_end": 99,
+            "group": "Trap Options" 
+        },
+        "trap_sleep":{
+            "description": [
+                "How many 'Sleep' traps should be set?",
+                "See the setup guide for tips/suggestions on how to run this and other traps on unmodded hardware."
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "default": 5,
+            "range_end": 99,
+            "group": "Trap Options" 
+        }
+    }
+
+}

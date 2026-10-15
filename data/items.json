@@ -1,0 +1,1533 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+  "data": [
+    {
+      "count": "10",
+      "name": "Friend Heart",
+      "category": [
+        "Key Collectible",
+        "Treasure"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": "8",
+      "name": "Heart Spear Piece",
+      "category": [
+        "Key Collectible",
+        "Treasure"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": "9",
+      "name": "Ultimate Spice Level UP",
+      "category": [
+        "Key Collectible",
+        "Food"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": "0",
+      "name": "Remove First Ally",
+      "category": [
+        "Ally Trap",
+        "Trap Item"
+      ],
+      "trap": true,
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Remove Last Ally",
+      "category": [
+        "Ally Trap",
+        "Trap Item"
+      ],
+      "trap": true,
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Remove Any Ally",
+      "category": [
+        "Ally Trap",
+        "Trap Item"
+      ],
+      "trap": true,
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Remove All Allies",
+      "category": [
+        "Ally Trap",
+        "Trap Item"
+      ],
+      "trap": true,
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Remove Copy Ability",
+      "category": [
+        "Gameplay Trap",
+        "Trap Item"
+      ],
+      "trap": true,
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "No Jumps",
+      "category": [
+        "Gameplay Trap",
+        "Trap Item"
+      ],
+      "trap": true,
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Flip Controller",
+      "category": [
+        "Gameplay Trap",
+        "Trap Item"
+      ],
+      "trap": true,
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Green Gardens",
+      "category": [
+        "Stage",
+        "Dreamland Stage",
+        "Starting Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Donut Dome",
+      "category": [
+        "Stage",
+        "Dreamland Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Honey Hill",
+      "category": [
+        "Stage",
+        "Dreamland Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Fruity Forest",
+      "category": [
+        "Stage",
+        "Dreamland Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Extra Eclair",
+      "category": [
+        "Stage",
+        "Dreamland Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Clash at Castle Dedede",
+      "category": [
+        "Stage",
+        "Dreamland Stage",
+        "Final Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Friendly Field",
+      "category": [
+        "Stage",
+        "Pop Star Stage",
+        "Starting Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Reef Resort",
+      "category": [
+        "Stage",
+        "Pop Star Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Inside Islands",
+      "category": [
+        "Stage",
+        "Pop Star Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Echo's Edge",
+      "category": [
+        "Stage",
+        "Pop Star Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Nature's Navel",
+      "category": [
+        "Stage",
+        "Pop Star Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Duplex Dream",
+      "category": [
+        "Stage",
+        "Pop Star Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sacred Square",
+      "category": [
+        "Stage",
+        "Pop Star Stage",
+        "Final Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Gatehouse Road",
+      "category": [
+        "Stage",
+        "Jambastion Stage",
+        "Starting Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Eastern Wall",
+      "category": [
+        "Stage",
+        "Jambastion Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sector A",
+      "category": [
+        "Stage",
+        "Jambastion Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Longview Corridor",
+      "category": [
+        "Stage",
+        "Jambastion Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Western Outer Wall",
+      "category": [
+        "Stage",
+        "Jambastion Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sector B",
+      "category": [
+        "Stage",
+        "Jambastion Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Inner Sanctum",
+      "category": [
+        "Stage",
+        "Jambastion Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sector C",
+      "category": [
+        "Stage",
+        "Jambastion Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Heavenly Hall",
+      "category": [
+        "Stage",
+        "Jambastion Stage",
+        "Final Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Planet Earthfall",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Falluna Moon",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Planet Misteen",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Mareen Moon",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Planet Caverna",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Grott Moon",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Planet Frostak",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Blizzno Moon",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Planet Towara",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Gabbel Moon",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Star Lavadom",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sizzlai Moon",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Extra Planet Alpha",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Extra Planet Beta",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Extra Planet Gamma",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Extra Planet Delta",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Jambandra Base",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "The Divine Terminus",
+      "category": [
+        "Stage",
+        "Far-Flung Starlight Heroes Stage",
+        "Final Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 0,
+      "name": "Dimension I",
+      "category": [
+        "Stage",
+        "Heroes in Another Dimension Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 0,
+      "name": "Dimension II",
+      "category": [
+        "Stage",
+        "Heroes in Another Dimension Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 0,
+      "name": "Dimension III",
+      "category": [
+        "Stage",
+        "Heroes in Another Dimension Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 0,
+      "name": "Dimension IV",
+      "category": [
+        "Stage",
+        "Heroes in Another Dimension Stage"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Beam",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Zap",
+        "Star Zap"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Beetle",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Cut",
+        "Stake",
+        "Friend Throw"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Bomb",
+      "category": [
+        "Copy Ability",
+        "Ally"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Cleaning",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Splash",
+        "Bluster",
+        "Cold",
+        "Friend Throw",
+        "Star Cold"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Cook",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Friend Throw"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Crash",
+      "category": [
+        "Copy Ability"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Cutter",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Cut",
+        "Elemental Cut",
+        "Star Cut"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "ESP",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Zap",
+        "Star Zap"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Fighter",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Sizzle",
+        "Friend Throw"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Fire",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Sizzle",
+        "Star Sizzle"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Hammer",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Stake",
+        "Side Stake"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Ice",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Cold",
+        "Blizzard",
+        "Star Cold"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Mike",
+      "category": [
+        "Copy Ability"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Ninja",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Cut",
+        "Elemental Cut",
+        "Star Cut"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Parasol",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Cold",
+        "Splash"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Plasma",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Zap",
+        "Star Zap"
+      ],
+      "progression": true
+    },
+    {
+      "count": 0,
+      "name": "Sleep",
+      "category": [
+        "Copy Ability",
+        "Trap Item"
+      ],
+      "trap": true
+    },
+    {
+      "count": 1,
+      "name": "Stone",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Geo",
+        "Stake"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Suplex",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Cut",
+        "Friend Throw"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sword",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Cut",
+        "Elemental Cut",
+        "Star Cut"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Water",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Cold",
+        "Splash",
+        "Star Cold"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Whip",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Long"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Wing",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Cut",
+        "Cold",
+        "Bluster",
+        "Star Cold"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Yo-Yo",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Long"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Artist",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Paint",
+        "Stake"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Festival",
+      "category": [
+        "Copy Ability"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Spider",
+      "category": [
+        "Copy Ability",
+        "Ally"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Staff",
+      "category": [
+        "Copy Ability",
+        "Ally",
+        "Long"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Friend Circle",
+      "category": [
+        "Friend Action"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Friend Bridge",
+      "category": [
+        "Friend Action"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Friend Train",
+      "category": [
+        "Friend Action"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Friend Star",
+      "category": [
+        "Friend Action"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Star Allies Sparkler",
+      "category": [
+        "Friend Action"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Bandana Waddle Dee",
+      "category": [
+        "Ally",
+        "Dream Friend",
+        "Cut",
+        "Elemental Cut",
+        "Star Cut",
+        "Long"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "King Dedede",
+      "category": [
+        "Ally",
+        "Dream Friend",
+        "Stake",
+        "Side Stake"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Meta Knight",
+      "category": [
+        "Ally",
+        "Dream Friend",
+        "Cut",
+        "Elemental Cut",
+        "Star Cut"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Rick & Kine & Coo",
+      "category": [
+        "Ally",
+        "Dream Friend",
+        "Cut",
+        "Sizzle",
+        "Star Sizzle",
+        "Splash",
+        "Bluster",
+        "Geo",
+        "Stake"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Marx",
+      "category": [
+        "Ally",
+        "Dream Friend",
+        "Teleport"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Gooey",
+      "category": [
+        "Ally",
+        "Dream Friend",
+        "Stake",
+        "Splash",
+        "Sizzle",
+        "Cold",
+        "Star Cold",
+        "Geo",
+        "Friend Throw"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Adeleine & Ribbon",
+      "category": [
+        "Ally",
+        "Dream Friend",
+        "Zap",
+        "Blizzard",
+        "Cut",
+        "Cold",
+        "Paint",
+        "Stake"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Dark Meta Knight",
+      "category": [
+        "Ally",
+        "Dream Friend",
+        "Cut",
+        "Elemental Cut",
+        "Star Cut",
+        "Long"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Daroach",
+      "category": [
+        "Ally",
+        "Dream Friend",
+        "Stake",
+        "Zap",
+        "Blizzard",
+        "Cut",
+        "Cold",
+        "Star Cold",
+        "Sizzle"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Magolor",
+      "category": [
+        "Ally",
+        "Dream Friend",
+        "Bluster",
+        "Sizzle",
+        "Zap",
+        "Star Zap",
+        "Cut",
+        "Cold",
+        "Friend Throw",
+        "Teleport"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Taranza",
+      "category": [
+        "Ally",
+        "Dream Friend",
+        "Zap"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Susie",
+      "category": [
+        "Ally",
+        "Dream Friend",
+        "Cut",
+        "Elemental Cut",
+        "Stake",
+        "Long"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "The Three Mage-Sisters",
+      "category": [
+        "Ally",
+        "Dream Friend",
+        "Cut",
+        "Elemental Cut",
+        "Long",
+        "Sizzle",
+        "Star Sizzle",
+        "Blizzard",
+        "Star Cold",
+        "Zap",
+        "Star Zap",
+        "Cold",
+        "Splash",
+        "Friend Throw",
+        "Teleport"
+      ],
+      "progression": true
+    },
+    {
+      "count": 0,
+      "name": "First Spear's Aid",
+      "category": [
+        "Heart Spears' Aid"
+      ],
+      "progression": true
+    },
+    {
+      "count": 0,
+      "name": "Second Spear's Aid",
+      "category": [
+        "Heart Spears' Aid"
+      ],
+      "progression": true
+    },
+    {
+      "count": 0,
+      "name": "Third Spear's Aid",
+      "category": [
+        "Heart Spears' Aid"
+      ],
+      "progression": true
+    },
+    {
+      "count": 0,
+      "name": "Fourth Spear's Aid",
+      "category": [
+        "Heart Spears' Aid"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Trip Ticket No. 86",
+      "category": [
+        "Area Access Key"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Caverna Back Alley Pass",
+      "category": [
+        "Area Access Key"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Ability Planet Gauntlet Pass",
+      "category": [
+        "Area Access Key"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Extraordinary Component - 'A' Button",
+      "category": [
+        "Extraordinary Device"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Extraordinary Component - '-' Button",
+      "category": [
+        "Extraordinary Device"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Extraordinary Component - D-Pad",
+      "category": [
+        "Extraordinary Device"
+      ],
+      "progression": true
+    },
+    {
+      "count": "0",
+      "name": "Green Point Star",
+      "category": [
+        "Point Star",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Red Point Star",
+      "category": [
+        "Point Star",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Blue Point Star",
+      "category": [
+        "Point Star",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Yellow Point Star",
+      "category": [
+        "Point Star",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Standard Amiibo",
+      "category": [
+        "Amiibo",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Kirby/BoxBoy Series Amiibo",
+      "category": [
+        "Amiibo",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Tomato",
+      "category": [
+        "Food",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Apple",
+      "category": [
+        "Food",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Strawberry",
+      "category": [
+        "Food",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Cherry",
+      "category": [
+        "Food",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Bead",
+      "category": [
+        "Currency",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Star Coin",
+      "category": [
+        "Currency",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Starry Coin",
+      "category": [
+        "Currency",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Stamp Ticket",
+      "category": [
+        "Currency",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Picture Piece",
+      "category": [
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Clay Figurine",
+      "category": [
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Enemy Info Card",
+      "category": [
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Gummy",
+      "category": [
+        "Treasure",
+        "Food",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Keychain",
+      "category": [
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Sticker",
+      "category": [
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Gotcha Figure",
+      "category": [
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Character Treat",
+      "category": [
+        "Treasure",
+        "Food",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Pep Brew",
+      "category": [
+        "Food",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Car Mouth Cake",
+      "category": [
+        "Food",
+        "Filler Pool"
+      ],
+      "filler": true
+    },
+    {
+      "count": "0",
+      "name": "Maxim Tomato",
+      "category": [
+        "Food",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Invincible Candy",
+      "category": [
+        "Food",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Mint Leaf",
+      "category": [
+        "Food",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Sweet Potato",
+      "category": [
+        "Food",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Superspicy Curry",
+      "category": [
+        "Food",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "1-Up",
+      "category": [
+        "Point Star",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Attack Power-Up Heart",
+      "category": [
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Health Power-Up Heart",
+      "category": [
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Speed Power-Up Heart",
+      "category": [
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "All Power-Up Heart",
+      "category": [
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Gem Apple",
+      "category": [
+        "Currency",
+        "Food",
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Fire Fragment",
+      "category": [
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Water Fragment",
+      "category": [
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Light Fragment",
+      "category": [
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Rare Fragment",
+      "category": [
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Apple Sherbet",
+      "category": [
+        "Food",
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Strawberry Shortcake",
+      "category": [
+        "Food",
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Deluxe Rainbow Parfait",
+      "category": [
+        "Food",
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Eclair",
+      "category": [
+        "Food",
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    },
+    {
+      "count": "0",
+      "name": "Rare Stone",
+      "category": [
+        "Treasure",
+        "Filler Pool"
+      ],
+      "filler": true,
+      "useful": true
+    }
+  ]
+}

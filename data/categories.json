@@ -1,0 +1,161 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
+    "Picture Piece": {
+        "hidden": true,
+        "yaml_option": ["picture_piece_sanity"]
+    },
+    "Extra Life": {
+        "hidden": true,
+        "yaml_option": ["one_up_sanity"]
+    },
+    "Blue Point Star": {
+        "hidden": true,
+        "yaml_option": ["blue_star_sanity"]
+    },
+    "Blocked Ultimate Choice": {
+        "hidden": true
+    },
+    "Blocked Soul Melter": {
+        "hidden": true
+    },
+    "Blocked Soul Melter EX": {
+        "hidden": true
+    },
+    "HiAD - Dimension I": {
+        "yaml_option": ["enable_heroes_in_another_dimension"]
+    },
+    "HiAD - Dimension II": {
+        "yaml_option": ["enable_heroes_in_another_dimension"]
+    },
+    "HiAD - Dimension III": {
+        "yaml_option": ["enable_heroes_in_another_dimension"]
+    },
+    "HiAD - Dimension IV": {
+        "yaml_option": ["enable_heroes_in_another_dimension"]
+    },
+    "HiAD Misc": {
+        "hidden":  true,
+        "yaml_option": ["enable_heroes_in_another_dimension"]
+    },
+    "HiAD Friend Heart": {
+        "hidden": true,
+        "yaml_option": ["hiad_friend_heart_sanity", "enable_heroes_in_another_dimension"]
+    },
+    "HiAD Picture Piece": {
+        "hidden": true,
+        "yaml_option": ["hiad_unify_sanity", "enable_heroes_in_another_dimension", "picture_piece_sanity"]
+    },
+    "HiAD Extra Life": {
+        "hidden": true,
+        "yaml_option": ["hiad_unify_sanity", "enable_heroes_in_another_dimension", "one_up_sanity"]
+    },
+    "HiAD Blue Star": {
+        "hidden": true,
+        "yaml_option": ["hiad_unify_sanity", "enable_heroes_in_another_dimension", "blue_star_sanity"]
+    },
+    "Amiibo": {
+        "hidden": false
+    },
+    "Filler Pool": {
+        "hidden": true
+    },
+    "Gameplay Trap": {
+        "hidden": true
+    },
+    "Ally Trap": {
+        "hidden": true
+    },
+    "Trap Item": {
+        "hidden": true
+    },
+    "Sizzle": {
+        "hidden": true
+    },
+    "Zap": {
+        "hidden": true
+    },
+    "Blizzard": {
+        "hidden": true
+    },
+    "Bluster": {
+        "hidden": true
+    },
+    "Splash": {
+        "hidden": true
+    },
+    "Cut": {
+        "hidden": true
+    },
+    "Elemental Cut": {
+        "hidden": true
+    },
+    "Long": {
+        "hidden": true
+    },
+    "Friend Throw": {
+        "hidden": true
+    },
+    "Cold": {
+        "hidden": true
+    },
+    "Stake": {
+        "hidden": true
+    },
+    "Side Stake": {
+        "hidden": true
+    },
+    "Geo": {
+        "hidden": true
+    },
+    "Star Sizzle": {
+        "hidden": true
+    },
+    "Star Splash": {
+        "hidden": true
+    },
+    "Star Blizzard": {
+        "hidden": true
+    },
+    "Star Bluster": {
+        "hidden": true
+    },
+    "Star Zap": {
+        "hidden": true
+    },
+    "Star Cut": {
+        "hidden": true
+    },
+    "Star Cold": {
+        "hidden": true
+    },
+    "Paint": {
+        "hidden": true
+    },
+    "Ally": {
+        "hidden": true
+    },
+    "Teleport": {
+        "hidden": true
+    },
+    "Final Stage": {
+        "hidden": true
+    },
+    "Starting Stage": {
+        "hidden": true
+    },
+    "Dreamland Stage": {
+        "hidden": true
+    },
+    "Pop Star Stage": {
+        "hidden": true
+    },
+    "Jambastion Stage": {
+        "hidden": true
+    },
+    "Far-Flung Starlight Heroes Stage": {
+        "hidden": true
+    },
+    "Heroes in Another Dimension Stage": {
+        "hidden": true
+    }
+}

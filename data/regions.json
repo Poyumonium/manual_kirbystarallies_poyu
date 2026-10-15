@@ -1,0 +1,274 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+  "Heroes in Another Dimension": {
+    "starting": true,
+    "connects_to": [],
+    "requires": ""
+  },
+  "Level 1 (Dreamland)": {
+    "starting": true,
+    "connects_to": [
+      "Dreamland - Green Gardens",
+      "Dreamland - Donut Dome",
+      "Dreamland - Honey Hill",
+      "Dreamland - Fruity Forest",
+      "Dreamland - Extra Eclair",
+      "Dreamland - Clash at Castle Dedede"
+    ],
+    "requires": ""
+  },
+  "Level 2 (Pop Star)": {
+    "starting": true,
+    "connects_to": [
+      "Pop Star - Friendly Field",
+      "Pop Star - Reef Resort",
+      "Pop Star - Inside Islands",
+      "Pop Star - Echo's Edge",
+      "Pop Star - Nature's Navel",
+      "Pop Star - Duplex Dream",
+      "Pop Star - Sacred Square"
+    ],
+    "requires": ""
+  },
+  "Level 3 (Jambastion)": {
+    "starting": true,
+    "connects_to": [
+      "Jambastion - Gatehouse Road",
+      "Jambastion - Eastern Wall",
+      "Jambastion - Sector A",
+      "Jambastion - Longview Corridor",
+      "Jambastion - Western Outer Wall",
+      "Jambastion - Sector B",
+      "Jambastion - Inner Sanctum",
+      "Jambastion - Sector C",
+      "Jambastion - Heavenly Hall"
+    ],
+    "requires": ""
+  },
+  "Level 4 (Far-Flung Starlight Heroes)": {
+    "starting": true,
+    "connects_to": [
+      "Far-Flung Starlight Heroes - Planet Earthfall",
+      "Far-Flung Starlight Heroes - Falluna Moon",
+      "Far-Flung Starlight Heroes - Planet Misteen",
+      "Far-Flung Starlight Heroes - Mareen Moon",
+      "Far-Flung Starlight Heroes - Planet Caverna",
+      "Far-Flung Starlight Heroes - Grott Moon",
+      "Far-Flung Starlight Heroes - Planet Frostak",
+      "Far-Flung Starlight Heroes - Blizzno Moon",
+      "Far-Flung Starlight Heroes - Planet Towara",
+      "Far-Flung Starlight Heroes - Gabbel Moon",
+      "Far-Flung Starlight Heroes - Star Lavadom",
+      "Far-Flung Starlight Heroes - Sizzlai Moon",
+      "Far-Flung Starlight Heroes - Extra Planet Alpha",
+      "Far-Flung Starlight Heroes - Extra Planet Beta",
+      "Far-Flung Starlight Heroes - Extra Planet Gamma",
+      "Far-Flung Starlight Heroes - Extra Planet Delta",
+      "Far-Flung Starlight Heroes - Jambandra Base",
+      "Far-Flung Starlight Heroes - The Divine Terminus",
+      "Ability Planet Lobby"
+    ],
+    "requires": ""
+  },
+  "Level 5 (Kirby Star Allies)": {
+    "starting": true,
+    "connects_to": [],
+    "requires": "|Star Allies Sparkler|"
+  },
+  "The Ultimate Choice": {
+    "starting": true,
+    "connects_to": [],
+    "requires": ""
+  },
+  "Soul Melter": {
+    "starting": true,
+    "connects_to": [],
+    "requires": "|Ultimate Spice Level UP:8| AND ({hasMain()})"
+  },
+  "Soul Melter Goal": {
+    "starting": true,
+    "connects_to": [],
+    "requires": "|Ultimate Spice Level UP:8| AND |Star Allies Sparkler| AND ({hasMain()})"
+  },
+  "Soul Melter EX": {
+    "starting": true,
+    "connects_to": [],
+    "requires": "|Ultimate Spice Level UP:9| AND |@Extraordinary Device:3| AND ({hasMain()})"
+  },
+  "Soul Melter EX Goal": {
+    "starting": true,
+    "connects_to": [],
+    "requires": "|Ultimate Spice Level UP:9| AND |@Extraordinary Device:3| AND |Star Allies Sparkler| AND ({hasMain()})"
+  },
+  "Ability Planet Lobby": {
+    "starting": true,
+    "connects_to": [
+      "Ability Planet Gauntlet"
+    ],
+    "requires": ""
+  },
+  "Ability Planet Gauntlet": {
+    "connects_to": [],
+    "requires": "|Ability Planet Gauntlet Pass| AND ({hasMain()})"
+  },
+  "Dreamland - Green Gardens": {
+    "connects_to": [],
+    "requires": "|Green Gardens|"
+  },
+  "Dreamland - Donut Dome": {
+    "connects_to": [],
+    "requires": "|Donut Dome|"
+  },
+  "Dreamland - Honey Hill": {
+    "connects_to": [],
+    "requires": "|Honey Hill|"
+  },
+  "Dreamland - Fruity Forest": {
+    "connects_to": [],
+    "requires": "|Fruity Forest|"
+  },
+  "Dreamland - Extra Eclair": {
+    "connects_to": [],
+    "requires": "|Extra Eclair|"
+  },
+  "Dreamland - Clash at Castle Dedede": {
+    "connects_to": [],
+    "requires": "|Clash at Castle Dedede|"
+  },
+  "Pop Star - Friendly Field": {
+    "connects_to": [],
+    "requires": "|Friendly Field|"
+  },
+  "Pop Star - Reef Resort": {
+    "connects_to": [],
+    "requires": "|Reef Resort|"
+  },
+  "Pop Star - Inside Islands": {
+    "connects_to": [],
+    "requires": "|Inside Islands|"
+  },
+  "Pop Star - Echo's Edge": {
+    "connects_to": [],
+    "requires": "|Echo's Edge|"
+  },
+  "Pop Star - Nature's Navel": {
+    "connects_to": [],
+    "requires": "|Nature's Navel|"
+  },
+  "Pop Star - Duplex Dream": {
+    "connects_to": [],
+    "requires": "|Duplex Dream|"
+  },
+  "Pop Star - Sacred Square": {
+    "connects_to": [],
+    "requires": "|Sacred Square|"
+  },
+  "Jambastion - Gatehouse Road": {
+    "connects_to": [],
+    "requires": "|Gatehouse Road|"
+  },
+  "Jambastion - Eastern Wall": {
+    "connects_to": [],
+    "requires": "|Eastern Wall|"
+  },
+  "Jambastion - Sector A": {
+    "connects_to": [],
+    "requires": "|Sector A|"
+  },
+  "Jambastion - Longview Corridor": {
+    "connects_to": [],
+    "requires": "|Longview Corridor|"
+  },
+  "Jambastion - Western Outer Wall": {
+    "connects_to": [],
+    "requires": "|Western Outer Wall|"
+  },
+  "Jambastion - Sector B": {
+    "connects_to": [],
+    "requires": "|Sector B|"
+  },
+  "Jambastion - Inner Sanctum": {
+    "connects_to": [],
+    "requires": "|Inner Sanctum|"
+  },
+  "Jambastion - Sector C": {
+    "connects_to": [],
+    "requires": "|Sector C|"
+  },
+  "Jambastion - Heavenly Hall": {
+    "connects_to": [],
+    "requires": "|Heavenly Hall|"
+  },
+  "Far-Flung Starlight Heroes - Planet Earthfall": {
+    "connects_to": [],
+    "requires": "|Planet Earthfall|"
+  },
+  "Far-Flung Starlight Heroes - Falluna Moon": {
+    "connects_to": [],
+    "requires": "|Falluna Moon|"
+  },
+  "Far-Flung Starlight Heroes - Planet Misteen": {
+    "connects_to": [],
+    "requires": "|Planet Misteen|"
+  },
+  "Far-Flung Starlight Heroes - Mareen Moon": {
+    "connects_to": [],
+    "requires": "|Mareen Moon|"
+  },
+  "Far-Flung Starlight Heroes - Planet Caverna": {
+    "connects_to": [],
+    "requires": "|Planet Caverna|"
+  },
+  "Far-Flung Starlight Heroes - Grott Moon": {
+    "connects_to": [],
+    "requires": "|Grott Moon|"
+  },
+  "Far-Flung Starlight Heroes - Planet Frostak": {
+    "connects_to": [],
+    "requires": "|Planet Frostak|"
+  },
+  "Far-Flung Starlight Heroes - Blizzno Moon": {
+    "connects_to": [],
+    "requires": "|Blizzno Moon|"
+  },
+  "Far-Flung Starlight Heroes - Planet Towara": {
+    "connects_to": [],
+    "requires": "|Planet Towara|"
+  },
+  "Far-Flung Starlight Heroes - Gabbel Moon": {
+    "connects_to": [],
+    "requires": "|Gabbel Moon|"
+  },
+  "Far-Flung Starlight Heroes - Star Lavadom": {
+    "connects_to": [],
+    "requires": "|Star Lavadom|"
+  },
+  "Far-Flung Starlight Heroes - Sizzlai Moon": {
+    "connects_to": [],
+    "requires": "|Sizzlai Moon|"
+  },
+  "Far-Flung Starlight Heroes - Extra Planet Alpha": {
+    "connects_to": [],
+    "requires": "|Extra Planet Alpha|"
+  },
+  "Far-Flung Starlight Heroes - Extra Planet Beta": {
+    "connects_to": [],
+    "requires": "|Extra Planet Beta|"
+  },
+  "Far-Flung Starlight Heroes - Extra Planet Gamma": {
+    "connects_to": [],
+    "requires": "|Extra Planet Gamma|"
+  },
+  "Far-Flung Starlight Heroes - Extra Planet Delta": {
+    "connects_to": [],
+    "requires": "|Extra Planet Delta|"
+  },
+  "Far-Flung Starlight Heroes - Jambandra Base": {
+    "connects_to": [],
+    "requires": "|Jambandra Base|"
+  },
+  "Far-Flung Starlight Heroes - The Divine Terminus": {
+    "connects_to": [],
+    "requires": "|The Divine Terminus|"
+  }
+}

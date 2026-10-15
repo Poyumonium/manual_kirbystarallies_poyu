@@ -1,0 +1,25 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.events.schema.json",
+  "data": [
+    {
+      "name": "First Heart Spear",
+      "copy_location": "First Heart Spear Complete",
+      "visible": true
+    },
+    {
+      "name": "Second Heart Spear",
+      "copy_location": "Second Heart Spear Complete",
+      "visible": true
+    },
+    {
+      "name": "Third Heart Spear",
+      "copy_location": "Third Heart Spear Complete",
+      "visible": true
+    },
+    {
+      "name": "Fourth Heart Spear",
+      "copy_location": "Fourth Heart Spear Complete",
+      "visible": true
+    }
+  ]
+}
