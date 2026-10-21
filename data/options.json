@@ -117,15 +117,8 @@
         },
         "unify_dedede_metaknight":{
             "description": [
-                "Should Meta Knight and King Dedede be unlocked by befriending them after their respective boss fights?"
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Ally Options" 
-        },
-        "unify_magesisters":{
-            "description": [
-                "Should The Three Mage-Sisters be unlocked by befriending them after their boss fight in Dimension V?"
+                "Should Meta Knight and King Dedede be unlocked by befriending them after their respective boss fights?",
+                "Takes effect regardless of how other allies are unlocked."
             ],
             "type": "Toggle",
             "default": false,
@@ -150,6 +143,37 @@
             "default": 0,
             "range_end": 4,
             "group": "Ally Options" 
+        },
+        "unlock_allies_with_hearts":{
+            "description": [
+                "Should allies be unlocked by collecting Friend Hearts?",
+                "If set to false, allies will be shuffled with the rest of the item pool."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Friend Heart Gating" 
+        },
+        "ally_friend_heart_percent":{
+            "description": [
+                "What percentage of required Friend Hearts should be collected to unlock every ally?",
+                "May be set to a percent value higher than 100 in case you wish to factor in the extra Friend Hearts",
+                "(be wary of both required and extra amounts to avoid generation issues)",
+                "(if unsure, keep this value at 100 or lower)"
+            ],
+            "type": "Range",
+            "range_start": 20,
+            "default": 80,
+            "range_end": 200,
+            "group": "Friend Heart Gating" 
+        },
+        "last_heart_level_is_magesisters":{
+            "description": [
+                "If allies are locked behind Friend Hearts, should The Three Mage Sisters be the last ally you unlock?",
+                "Ignored if 'unify_magesisters' is set to true."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Friend Heart Gating" 
         },
         "starting_stage_count":{
             "description": [
@@ -257,6 +281,15 @@
         "hiad_all_dimensions_required":{
             "description": [
                 "As an additional requirement for achieving the Happiest Ending, should the four main dimensions be cleared first?"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Heroes in Another Dimension" 
+        },
+        "unify_magesisters":{
+            "description": [
+                "Should The Three Mage-Sisters be unlocked by befriending them after their boss fight in Dimension V?",
+                "Takes effect regardless of how other allies are unlocked."
             ],
             "type": "Toggle",
             "default": false,

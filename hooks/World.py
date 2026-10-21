@@ -30,7 +30,11 @@ import logging
 ## The fill_slot_data method will be used to send data to the Manual client for later use, like deathlink.
 ########################################################################################
 
-
+abilityListTrue: list[str] = [
+        "Beam", "Beetle", "Bomb", "Cleaning", "Cook", "Cutter", "ESP", "Fighter", "Fire", "Hammer", "Ice", "Ninja", "Parasol", "Plasma", 
+        "Stone", "Suplex", "Sword", "Water", "Whip", "Wing", "Yo-Yo", "Artist", "Spider", "Staff",
+        "Bandana Waddle Dee", "Rick & Kine & Coo", "Marx", "Gooey", "Adeleine & Ribbon", "Dark Meta Knight", "Daroach", "Magolor", "Taranza", "Susie", 
+        "Crash", "Mike", "Festival"]
 
 # Use this function to change the valid filler items to be created to replace item links or starting items.
 # Default value is the `filler_item_name` from game.json
@@ -86,7 +90,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     from random import shuffle
     abilityList: list[str] = ["Beam", "Beetle", "Bomb", "Cleaning", "Cook", "Cutter", "ESP", "Fighter", "Fire", "Hammer", "Ice", "Ninja", "Parasol", "Plasma", "Stone", "Suplex", "Sword", "Water", "Whip", "Wing", "Yo-Yo", "Artist", "Spider", "Staff"]
     dreamFriendList: list[str] = ["Bandana Waddle Dee", "Rick & Kine & Coo", "Marx", "Gooey", "Adeleine & Ribbon", "Dark Meta Knight", "Daroach", "Magolor", "Taranza", "Susie"]
-    nonAllyAbilities: list[str] = ["Crash", "Mike", "Festival", "Sleep"]
+    nonAllyAbilities: list[str] = ["Crash", "Mike", "Festival"]
     allyList: list[str] = []
     for a in abilityList:
         allyList.append(a)
@@ -97,27 +101,39 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         allyList.append("Meta Knight")
         dreamFriendList.append("King Dedede")
         dreamFriendList.append("Meta Knight")
-    if world.options.unify_magesisters == False:
-        allyList.append("The Three Mage-Sisters")
-        dreamFriendList.append("The Three Mage-Sisters")
+        abilityListTrue.append("Meta Knight")
+        abilityListTrue.append("King Dedede")
+    if world.options.unify_magesisters == False or world.options.enable_heroes_in_another_dimension.value == False:
+        if world.options.unlock_allies_with_hearts.value == False or world.options.last_heart_level_is_magesisters.value == False:
+            allyList.append("The Three Mage-Sisters")
+            dreamFriendList.append("The Three Mage-Sisters")
+            abilityListTrue.append("The Three Mage-Sisters")
     shuffle(allyList)
     startAllyList: list[str] = allyList.copy()
     del startAllyList[world.options.starting_ally_count:]
     # Add allies to starting pool
     for a in startAllyList:
         item = next(i for i in item_pool if i.name == a)
-        print(item)
+        # print(item)
         remove_specific_item(item_pool, item)
         world.push_precollected(world.create_item(a))
+        abilityListTrue.remove(a)
     # Add duplicate abilities
     for a in nonAllyAbilities:
         abilityList.append(a)
-    for i in range(world.options.dupe_ability_count):
-        for a in abilityList:
-            item_pool.append(world.create_item(a))
-    for i in range(world.options.dupe_dream_friend_count):
-        for d in dreamFriendList:
-            item_pool.append(world.create_item(d))
+    # Only add dupes if friend heart unlocking is disabled
+    if world.options.unlock_allies_with_hearts.value == False:
+        for i in range(world.options.dupe_ability_count):
+            for a in abilityList:
+                item_pool.append(world.create_item(a))
+        for i in range(world.options.dupe_dream_friend_count):
+            for d in dreamFriendList:
+                item_pool.append(world.create_item(d))
+    else:
+        shuffle(abilityListTrue)
+        # Add Mage-Sisters after shuffle if they're supposed to be last
+        if world.options.last_heart_level_is_magesisters.value == True:
+            abilityListTrue.append("The Three Mage-Sisters")
 
     stageList: list[str] = [
             "Green Gardens", "Donut Dome", "Honey Hill", "Fruity Forest", "Clash at Castle Dedede",
@@ -135,10 +151,10 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     hiadStages: list[str] = [
             "Dimension I","Dimension II","Dimension III","Dimension IV"
         ]
-    if world.options.unify_planets_and_moons == False:
+    if world.options.unify_planets_and_moons.value == False:
         for m in moonStages:
             stageList.append(m)
-    if world.options.unify_ex_stages == False:
+    if world.options.unify_ex_stages.value == False:
         for ex in exStages:
             stageList.append(ex)
     if world.options.hiad_gating_methods.value == 2:
@@ -213,7 +229,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                 unifiedPairs.update({"King Dedede": location})
             if location.name == "Sacred Square - Befriend Meta Knight":
                 unifiedPairs.update({"Meta Knight": location})
-        if world.options.unify_magesisters.value == True:
+        if world.options.unify_magesisters.value == True and world.options.enable_heroes_in_another_dimension.value == True:
             if location.name == "Final Dimension - Befriend The Three Mage-Sisters":
                 unifiedPairs.update({"The Three Mage-Sisters": location})
         if world.options.unify_planets_and_moons.value == True:
@@ -241,6 +257,46 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         location.place_locked_item(world.create_item("Third Spear's Aid"))
         location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Dimension IV - Clear")
         location.place_locked_item(world.create_item("Fourth Spear's Aid"))
+    
+    if world.options.unlock_allies_with_hearts.value == True:
+        friendUnlockNameBeginning = "New Friend "
+        friendUnlockNameEnd = " - ???? of the Stars"
+        allyCount = len(abilityListTrue)
+        # for item in item_pool:
+        #     for abilityName in abilityListTrue:
+        #         if item.name == abilityName:
+        #             allyCount += 1
+        for pre in world.options.start_inventory_from_pool.value:
+            startPoolItem = ""
+            startPoolItem = next((a for a in abilityListTrue if a == pre), "")
+            if startPoolItem != "":
+                allyCount -= 1
+                abilityListTrue.remove(startPoolItem)
+                # print(startPoolItem)
+    
+        print(allyCount)
+        # Use this hook to remove locations from the world
+        locationNamesToRemove: list[str] = [] # List of location names
+        locationRemoveCount = allyCount + 1
+        while locationRemoveCount <= 40:
+            locationNamesToRemove.append(friendUnlockNameBeginning + str(locationRemoveCount) + friendUnlockNameEnd)
+            locationRemoveCount += 1
+
+        # Add your code here to calculate which locations to remove
+        for region in multiworld.regions:
+            if region.player == player:
+                for location in list(region.locations):
+                    if location.name in locationNamesToRemove:
+                        # print(location.name)
+                        region.locations.remove(location)
+        # Shuffle and add allies to pool
+        for a in range(allyCount):
+            itemName = abilityListTrue[a]
+            locationName = friendUnlockNameBeginning + str(a+1) + friendUnlockNameEnd
+            location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == locationName)
+            item_to_place = next(i for i in item_pool if i.name == itemName)
+            location.place_locked_item(item_to_place)
+            remove_specific_item(item_pool, item_to_place)
 
     # Add your code here to calculate which items to remove.
     #

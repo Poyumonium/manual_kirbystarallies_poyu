@@ -75,6 +75,11 @@
     "connects_to": [],
     "requires": "|Star Allies Sparkler|"
   },
+  "Progressive Allies": {
+    "starting": true,
+    "connects_to": [],
+    "requires": ""
+  },
   "The Ultimate Choice": {
     "starting": true,
     "connects_to": [],

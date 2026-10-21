@@ -8083,6 +8083,326 @@
         "UC 9 - Soul Melter EX"
       ],
       "requires": ""
+    },
+    {
+      "name": "New Friend 1 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(1)}"
+    },
+    {
+      "name": "New Friend 2 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(2)}"
+    },
+    {
+      "name": "New Friend 3 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(3)}"
+    },
+    {
+      "name": "New Friend 4 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(4)}"
+    },
+    {
+      "name": "New Friend 5 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(5)}"
+    },
+    {
+      "name": "New Friend 6 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(6)}"
+    },
+    {
+      "name": "New Friend 7 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(7)}"
+    },
+    {
+      "name": "New Friend 8 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(8)}"
+    },
+    {
+      "name": "New Friend 9 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(9)}"
+    },
+    {
+      "name": "New Friend 10 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(10)}"
+    },
+    {
+      "name": "New Friend 11 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(11)}"
+    },
+    {
+      "name": "New Friend 12 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(12)}"
+    },
+    {
+      "name": "New Friend 13 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(13)}"
+    },
+    {
+      "name": "New Friend 14 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(14)}"
+    },
+    {
+      "name": "New Friend 15 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(15)}"
+    },
+    {
+      "name": "New Friend 16 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(16)}"
+    },
+    {
+      "name": "New Friend 17 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(17)}"
+    },
+    {
+      "name": "New Friend 18 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(18)}"
+    },
+    {
+      "name": "New Friend 19 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(19)}"
+    },
+    {
+      "name": "New Friend 20 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(20)}"
+    },
+    {
+      "name": "New Friend 21 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(21)}"
+    },
+    {
+      "name": "New Friend 22 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(22)}"
+    },
+    {
+      "name": "New Friend 23 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(23)}"
+    },
+    {
+      "name": "New Friend 24 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(24)}"
+    },
+    {
+      "name": "New Friend 25 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(25)}"
+    },
+    {
+      "name": "New Friend 26 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(26)}"
+    },
+    {
+      "name": "New Friend 27 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(27)}"
+    },
+    {
+      "name": "New Friend 28 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(28)}"
+    },
+    {
+      "name": "New Friend 29 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(29)}"
+    },
+    {
+      "name": "New Friend 30 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(30)}"
+    },
+    {
+      "name": "New Friend 31 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(31)}"
+    },
+    {
+      "name": "New Friend 32 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(32)}"
+    },
+    {
+      "name": "New Friend 33 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(33)}"
+    },
+    {
+      "name": "New Friend 34 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(34)}"
+    },
+    {
+      "name": "New Friend 35 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(35)}"
+    },
+    {
+      "name": "New Friend 36 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(36)}"
+    },
+    {
+      "name": "New Friend 37 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(37)}"
+    },
+    {
+      "name": "New Friend 38 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(38)}"
+    },
+    {
+      "name": "New Friend 39 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(39)}"
+    },
+    {
+      "name": "New Friend 40 - ???? of the Stars",
+      "region": "Progressive Allies",
+      "category": [
+        "Ally Unlock List"
+      ],
+      "requires": "{friendHeartBalance(40)}"
     }
   ]
 }

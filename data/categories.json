@@ -157,5 +157,8 @@
     },
     "Heroes in Another Dimension Stage": {
         "hidden": true
+    },
+    "Ally Unlock List": {
+        "yaml_option": ["unlock_allies_with_hearts"]
     }
 }

@@ -679,7 +679,6 @@
       "count": 0,
       "name": "Sleep",
       "category": [
-        "Copy Ability",
         "Trap Item"
       ],
       "trap": true

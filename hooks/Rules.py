@@ -33,6 +33,32 @@ def spearCompletion(world: World, state: CollectionState, player: int, spearCoun
         return True
     return False
 
+def friendHeartBalance(world: World, state: CollectionState, player: int, friendLevel: str):
+    if world.options.unlock_allies_with_hearts.value == True:
+        abilityListTrue: list[str] = [
+            "Beam", "Beetle", "Bomb", "Cleaning", "Cook", "Cutter", "ESP", "Fighter", "Fire", "Hammer", "Ice", "Ninja", "Parasol", "Plasma", 
+            "Stone", "Suplex", "Sword", "Water", "Whip", "Wing", "Yo-Yo", "Artist", "Spider", "Staff",
+            "Bandana Waddle Dee", "Rick & Kine & Coo", "Marx", "Gooey", "Adeleine & Ribbon", "Dark Meta Knight", "Daroach", "Magolor", "Taranza", "Susie", 
+            "Crash", "Mike", "Festival"]
+        if world.options.unify_dedede_metaknight.value == False:
+            abilityListTrue.append("King Dedede")
+            abilityListTrue.append("Meta Knight")
+        if world.options.unify_magesisters.value == False or world.options.enable_heroes_in_another_dimension == False:
+            abilityListTrue.append("The Three Mage-Sisters")
+        copyAbilityCount = len(abilityListTrue)
+        for pre in world.options.start_inventory_from_pool.value:
+            startPoolItem = ""
+            startPoolItem = next((a for a in abilityListTrue if a == pre), "")
+            if startPoolItem != "":
+                copyAbilityCount -= 1
+                abilityListTrue.remove(startPoolItem)
+        copyAbilityCount = float(copyAbilityCount)
+        heartRatio = float(friendLevel) / copyAbilityCount
+        totalFriendHearts = int((float(world.options.ally_friend_heart_percent.value)/100.0) * world.options.friend_heart_amount.value)
+        friendHeartsNeeded = int(totalFriendHearts * heartRatio)
+        return state.has("Friend Heart", player, count=friendHeartsNeeded)
+    return True
+
 def dimensionOneAccess(world: World, stepCount: str):
     reqString = ""
     stepInt = int(stepCount)
