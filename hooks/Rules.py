@@ -128,7 +128,7 @@ def dimensionThreeAccess(world: World, state: CollectionState, player: int, step
             case 2:
                 reqString += "|ESP| AND |Adeleine & Ribbon|"
             case 3:
-                ireqString += "|ESP| AND |Adeleine & Ribbon| AND |Dark Meta Knight|"
+                reqString += "|ESP| AND |Adeleine & Ribbon| AND |Dark Meta Knight|"
             case 4:
                 reqString += "|ESP| AND |Adeleine & Ribbon| AND |Dark Meta Knight| AND |Daroach|"
             case 5:
