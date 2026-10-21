@@ -239,7 +239,7 @@ def longviewBreakers():
     return "({geoKinesis()}) OR ({geoCurling()}) OR ({betterThrowAbilities()})"
 
 def tallGrassCommon():
-    return "|@Cut| OR |@Sizzle| OR |Cook| OR |@Paint| OR (|@Bluster| AND |Marx|)"
+    return "|@Cut| OR |@Sizzle| OR |Cook| OR |@Paint| OR (|@Bluster| AND |Marx|) OR (|Water| AND |@Blizzard|)"
 
 def burningChain():
     return "(|@Elemental Cut| AND |@Cold|) OR (|@Bluster| AND |Marx|) OR (|Water| AND |@Blizzard|)"

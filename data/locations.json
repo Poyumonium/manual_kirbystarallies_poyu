@@ -2270,7 +2270,7 @@
       "category": [
         "Dreamland - Green Gardens"
       ],
-      "requires": "(|@Ally| AND (|@Cold| OR |@Paint|) AND (|@Cut| OR |@Sizzle| OR |Artist| OR |Cook|)) OR (|@Bluster| AND |Marx|)"
+      "requires": "(|@Ally| AND (|@Cold| OR |@Paint|) AND (({tallGrassCommon()}) OR |Artist|)"
     },
     {
       "name": "Green Gardens - Room 2 (1up 1) - Second Hanging Nut",
@@ -2279,7 +2279,7 @@
         "Dreamland - Green Gardens",
         "Extra Life"
       ],
-      "requires": "|@Cut| OR (|@Bluster| AND |Marx|)"
+      "requires": "|@Cut| OR (|@Bluster| AND |Marx|) OR (|@Blizzard| AND |Water|)"
     },
     {
       "name": "Green Gardens - Room 3 (Piece 1) - Large Bomb",
@@ -3038,7 +3038,7 @@
       "category": [
         "Dreamland - Extra Eclair"
       ],
-      "requires": "(|@Cut| OR |Artist| OR (|@Bluster| AND |Marx|)) AND (|@Sizzle| OR |Cook|)"
+      "requires": "(|@Cut| OR |Artist| OR (|@Bluster| AND |Marx|) OR (|@Blizzard| AND |Water|)) AND (|@Sizzle| OR |Cook|)"
     },
     {
       "name": "Extra Eclair - Room 2 (Piece 1) - Third Switch Fork 1",
@@ -3065,7 +3065,7 @@
         "Dreamland - Extra Eclair",
         "Picture Piece"
       ],
-      "requires": "|@Cut| OR |Artist| OR (|@Bluster| AND |Marx|)"
+      "requires": "|@Cut| OR |Artist| OR (|@Bluster| AND |Marx|) OR (|@Blizzard| AND |Water|)"
     },
     {
       "name": "Extra Eclair - Room 3 (Piece 2) - Key Gate 2",
@@ -3074,7 +3074,7 @@
         "Dreamland - Extra Eclair",
         "Picture Piece"
       ],
-      "requires": "|@Cut| OR |Artist| OR (|@Bluster| AND |Marx|)"
+      "requires": "|@Cut| OR |Artist| OR (|@Bluster| AND |Marx|) OR (|@Blizzard| AND |Water|)"
     },
     {
       "name": "Extra Eclair - Room 3 (Piece 3) - Key Gate 3",
@@ -3083,7 +3083,7 @@
         "Dreamland - Extra Eclair",
         "Picture Piece"
       ],
-      "requires": "|@Cut| OR |Artist| OR (|@Bluster| AND |Marx|)"
+      "requires": "|@Cut| OR |Artist| OR (|@Bluster| AND |Marx|) OR (|@Blizzard| AND |Water|)"
     },
     {
       "name": "Extra Eclair - Room 3b (Blue Star 1) - Team Cannon 1",
@@ -3092,7 +3092,7 @@
         "Dreamland - Extra Eclair",
         "Blue Point Star"
       ],
-      "requires": "(|@Cut| OR |Artist| OR (|@Bluster| AND |Marx|)) AND (|@Sizzle| OR |Cook|)"
+      "requires": "(|@Cut| OR |Artist| OR (|@Bluster| AND |Marx|) OR (|@Blizzard| AND |Water|)) AND (|@Sizzle| OR |Cook|)"
     },
     {
       "name": "Extra Eclair - Room 3b (Blue Star 2) - Team Cannon 2",
@@ -3101,7 +3101,7 @@
         "Dreamland - Extra Eclair",
         "Blue Point Star"
       ],
-      "requires": "(|@Cut| OR |Artist| OR (|@Bluster| AND |Marx|)) AND (|@Sizzle| OR |Cook|)"
+      "requires": "(|@Cut| OR |Artist| OR (|@Bluster| AND |Marx|) OR (|@Blizzard| AND |Water|)) AND (|@Sizzle| OR |Cook|)"
     },
     {
       "name": "Extra Eclair - Room 3b (Blue Star 3) - Team Cannon 3",
@@ -3110,7 +3110,7 @@
         "Dreamland - Extra Eclair",
         "Blue Point Star"
       ],
-      "requires": "(|@Cut| OR |Artist| OR (|@Bluster| AND |Marx|)) AND (|@Sizzle| OR |Cook|)"
+      "requires": "(|@Cut| OR |Artist| OR (|@Bluster| AND |Marx|) OR (|@Blizzard| AND |Water|)) AND (|@Sizzle| OR |Cook|)"
     },
     {
       "name": "Extra Eclair - Room 4 (Piece 1) - Giant Waddle Escape",
@@ -3243,7 +3243,7 @@
         "Pop Star - Friendly Field",
         "Picture Piece"
       ],
-      "requires": "|@Bluster| AND (|@Cut| OR |Artist| OR |Marx|)"
+      "requires": "|@Bluster| AND (|@Cut| OR |Artist| OR |Marx| OR (|@Blizzard| AND |Water|))"
     },
     {
       "name": "Friendly Field - Room 3 (Piece 1) - Fan Item Diamond 1",
@@ -3845,7 +3845,7 @@
       "category": [
         "Pop Star - Nature's Navel"
       ],
-      "requires": "(|@Cold| AND |@Elemental Cut|) OR (|@Bluster| AND |Marx|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Nature's Navel - Rare Picture Piece",
@@ -3871,7 +3871,7 @@
         "Pop Star - Nature's Navel",
         "Picture Piece"
       ],
-      "requires": "(|@Cold| AND |@Elemental Cut|) OR (|@Bluster| AND |Marx|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Nature's Navel - Room 2b (Piece 2) - Ninja Puzzle 2",
@@ -3880,7 +3880,7 @@
         "Pop Star - Nature's Navel",
         "Picture Piece"
       ],
-      "requires": "(|@Cold| AND |@Elemental Cut|) OR (|@Bluster| AND |Marx|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Nature's Navel - Room 2b (Piece 3) - Ninja Puzzle 3",
@@ -3889,7 +3889,7 @@
         "Pop Star - Nature's Navel",
         "Picture Piece"
       ],
-      "requires": "(|@Cold| AND |@Elemental Cut|) OR (|@Bluster| AND |Marx|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Nature's Navel - Room 3b (Blue Star 1) - First Mega Blado 1",
@@ -3943,7 +3943,7 @@
         "Pop Star - Nature's Navel",
         "Picture Piece"
       ],
-      "requires": "(|@Cold| AND |@Elemental Cut|) OR (|@Bluster| AND |Marx|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Nature's Navel - Room 3c (1up 1) - Big Switch",
@@ -3952,7 +3952,7 @@
         "Pop Star - Nature's Navel",
         "Extra Life"
       ],
-      "requires": "(|@Cold| AND |@Elemental Cut|) OR (|@Bluster| AND |Marx|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Nature's Navel - Room 3c (Piece 1) - Big Switch 1",
@@ -3961,7 +3961,7 @@
         "Pop Star - Nature's Navel",
         "Picture Piece"
       ],
-      "requires": "(|@Cold| AND |@Elemental Cut|) OR (|@Bluster| AND |Marx|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Nature's Navel - Room 3c (Piece 2) - Big Switch 2",
@@ -3970,7 +3970,7 @@
         "Pop Star - Nature's Navel",
         "Picture Piece"
       ],
-      "requires": "(|@Cold| AND |@Elemental Cut|) OR (|@Bluster| AND |Marx|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Nature's Navel - Room 4 (Piece 1) - Hidden Behind Giant Blades",
@@ -6112,7 +6112,7 @@
       "category": [
         "FFSH - Frostak"
       ],
-      "requires": "(|@Elemental Cut| AND |@Cold|) OR (|@Bluster| AND |Marx|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Planet Frostak - Room 1 (Piece 1) - Spike Pit Gap",
@@ -6211,7 +6211,7 @@
         "FFSH - Frostak",
         "Picture Piece"
       ],
-      "requires": "(|@Elemental Cut| AND |@Cold|) OR (|@Bluster| AND |Marx|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Planet Frostak - Room 4 (Piece 2) - Right Chain Barrels",
@@ -6220,7 +6220,7 @@
         "FFSH - Frostak",
         "Picture Piece"
       ],
-      "requires": "(|@Elemental Cut| AND |@Cold|) OR (|@Bluster| AND |Marx|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Planet Frostak - Room 4 (1up 1) - Rare Piece Cubby 1",
@@ -6229,7 +6229,7 @@
         "FFSH - Frostak",
         "Extra Life"
       ],
-      "requires": "(|@Elemental Cut| AND |@Cold|) OR (|@Bluster| AND |Marx|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Planet Frostak - Room 4 (1up 2) - Rare Piece Cubby 2",
@@ -6238,7 +6238,7 @@
         "FFSH - Frostak",
         "Extra Life"
       ],
-      "requires": "(|@Elemental Cut| AND |@Cold|) OR (|@Bluster| AND |Marx|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Planet Frostak - Clear",
@@ -6896,7 +6896,7 @@
       "category": [
         "FFSH - Extra Planet Gamma"
       ],
-      "requires": "(|@Cold| AND |@Elemental Cut|) OR (|@Bluster| AND |Marx|) OR (|@Blizzard| AND |Water|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Extra Planet Gamma - Room 2 (Piece 1) - Back to the Middle",
@@ -6941,7 +6941,7 @@
         "FFSH - Extra Planet Gamma",
         "Picture Piece"
       ],
-      "requires": "(|@Cold| AND |@Elemental Cut|) OR (|@Bluster| AND |Marx|) OR (|@Blizzard| AND |Water|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Extra Planet Gamma - Room 3b (Piece 2) - Icicle Lance Puzzle 2",
@@ -6950,7 +6950,7 @@
         "FFSH - Extra Planet Gamma",
         "Picture Piece"
       ],
-      "requires": "(|@Cold| AND |@Elemental Cut|) OR (|@Bluster| AND |Marx|) OR (|@Blizzard| AND |Water|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Extra Planet Gamma - Room 3b (1up 1) - Icicle Lance Puzzle",
@@ -6959,7 +6959,7 @@
         "FFSH - Extra Planet Gamma",
         "Extra Life"
       ],
-      "requires": "(|@Cold| AND |@Elemental Cut|) OR (|@Bluster| AND |Marx|) OR (|@Blizzard| AND |Water|)"
+      "requires": "({burningChain()})"
     },
     {
       "name": "Extra Planet Gamma - Room 4 (Piece 1) - First Ambush Star Block",
