@@ -223,6 +223,9 @@ def geoCurling():
 def geoKinesis():
     return "|@Geo| AND |ESP|"
 
+def betterThrowAbilities():
+    return "|Magolor| OR |The Three Mage-Sisters|"
+
 def throwBlockCommon():
     return "|@Friend Throw| OR ({geoKinesis()}) OR ({geoCurling()})"
 
@@ -231,6 +234,9 @@ def throwBlockClean():
 
 def throwBlockHard():
     return "|@Friend Throw| OR ({geoKinesis()})"
+
+def longviewBreakers():
+    return "({geoKinesis()}) OR ({geoCurling()}) OR ({betterThrowAbilities()})"
 
 def tallGrassCommon():
     return "|@Cut| OR |@Sizzle| OR |Cook| OR |@Paint| OR (|@Bluster| AND |Marx|)"

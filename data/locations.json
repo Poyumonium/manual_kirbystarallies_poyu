@@ -4512,7 +4512,7 @@
       "category": [
         "Jambastion - Longview Corridor"
       ],
-      "requires": "({throwBlockCommon()})"
+      "requires": "({longviewBreakers()})"
     },
     {
       "name": "Longview Corridor - Room 2 (Piece 1) - Above Three Saws (Evac OK!)",
