@@ -22,11 +22,11 @@
 
 &#x20;- Make sure both this apworld and the Universal Tracker apworld are placed in your Archipelago custom worlds directory. 
 
-&#x20;- In general, \*\*it is highly recommended to use a 100% save file\*\* for running this manual of Kirby Star Allies. At minimum, the following are required:
+&#x20;- In general, **it is highly recommended to use a 100% save file** for running this manual of Kirby Star Allies. At minimum, the following are required:
 
-&#x09;	 - \*\*Every stage in Story Mode must be accessible.\*\* This includes each of the Dream Palaces as well as the Ability Planet.
+&#x09;	 - **Every stage in Story Mode must be accessible.** This includes each of the Dream Palaces as well as the Ability Planet.
 
-&#x09;	 - If you wish to include Heroes in Another Dimension, make sure you've already completed the mode with \*\*every Friend Heart collected\*\* to ensure full accessibility throughout the run.
+&#x09;	 - If you wish to include Heroes in Another Dimension, make sure you've already completed the mode with **every Friend Heart collected** to ensure full accessibility throughout the run.
 
 
 
@@ -36,7 +36,7 @@
 
 &#x20;2. Scroll down to "Manual Client" and select "Open". If you can't find it, make sure the apworld is properly installed and select either the "All" or "Client" section from the launcher's sidebar.
 
-&#x20;3. \*\*BEFORE JOINING THE SERVER\*\*, make sure the "Manual Game ID" just below the port is set to "Manual\_KirbyStarAllies\_Poyu"
+&#x20;3. **BEFORE JOINING THE SERVER**, make sure the "Manual Game ID" just below the port is set to "Manual\_KirbyStarAllies\_Poyu"
 
 &#x20;4. Enter you server and port in the bar up top and select "Connect".
 
