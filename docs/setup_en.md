@@ -1,6 +1,6 @@
-\# Manual Randomizer Setup Guide
+# Manual Randomizer Setup Guide
 
-\## What You'll Need
+## What You'll Need
 
 &#x20;- Archipelago
 
@@ -12,13 +12,13 @@
 
 
 
-\## Highly Recommended
+## Highly Recommended
 
 &#x20;- Universal Tracker (For handling required item amounts)
 
 
 
-\## Installation and Prerequisites
+## Installation and Prerequisites
 
 &#x20;- Make sure both this apworld and the Universal Tracker apworld are placed in your Archipelago custom worlds directory. 
 
@@ -30,7 +30,7 @@
 
 
 
-\## Joining a MultiWorld Game
+## Joining a MultiWorld Game
 
 &#x20;1. Open the Archipelago Launcher.
 
@@ -46,13 +46,13 @@
 
 
 
-\## Multiplayer Manual
+## Multiplayer Manual
 
 Kirby: Star Allies is a 2D sidescrolling action game for the Nintendo Switch family of systems. But not only can you play it by yourself. In fact, you and up to three of your friends can pal around in local co-op!
 
 
 
-\## Game Troubleshooting
+## Game Troubleshooting
 
 If you have any questions and/or issues related to the manual itself (items, logic, locations, etc), feel free to ask me about it on Discord or Github.
 
