@@ -9,7 +9,7 @@
             "display_name": "The End Objective",
                 "description": [
                     "Determines the goal for this manual",
-                    "Void Termina - Final Episode Attack: Complete the heart spears to assemble the Star Allies Sparkler and defeat Void Termina.",
+                    "Kirby Star Allies - Final Episode Attack: Complete the heart spears to assemble the Star Allies Sparkler and defeat Void Termina.",
                     "Final Dimension - Happiest Curtain Call: Gather enough Friend Hearts to defeat the Retaliators and achieve a happy ending in Heroes in Another Dimension.",
                     "Soul Melter - Clear: Defeat Void Soul at the end of Soul Melter",
                     "Soul Melter EX - Clear: Defeat the Astral Birth at the end of Soul Melter EX"
@@ -37,13 +37,13 @@
             "type": "Choice",
             "description": [
                 "Determines the goal for this manual",
-                "Void Termina - Final Episode Attack: Complete the heart spears to assemble the Star Allies Sparkler and defeat Void Termina.",
+                "Kirby Star Allies - Final Episode Attack: Complete the heart spears to assemble the Star Allies Sparkler and defeat Void Termina.",
                 "Final Dimension - Happiest Curtain Call: Gather enough Friend Hearts to defeat the Retaliators and achieve a happy ending in Heroes in Another Dimension.",
                 "Soul Melter - Clear: Defeat Void Soul at the end of Soul Melter",
                 "Soul Melter EX - Clear: Defeat the Astral Birth at the end of Soul Melter EX"
             ],
             "values": {
-                "Void Termina - Final Episode Attack":0,
+                "Kirby Star Allies - Final Episode Attack":0,
                 "Final Dimension - Happiest Curtain Call":1,
                 "Soul Melter - Clear":2,
                 "Soul Melter EX - Clear":3
