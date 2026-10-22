@@ -7668,7 +7668,6 @@
       "category": [
         "UC 6 - Fiery Showdown",
         "UC 7 - Infernal Crisis",
-        "UC 8 - Soul Melter",
         "Blocked Ultimate Choice"
       ],
       "requires": "|Ultimate Spice Level UP:6|"
@@ -7679,7 +7678,6 @@
       "category": [
         "UC 6 - Fiery Showdown",
         "UC 7 - Infernal Crisis",
-        "UC 8 - Soul Melter",
         "Blocked Ultimate Choice"
       ],
       "requires": "|Ultimate Spice Level UP:6|"
@@ -7703,7 +7701,6 @@
       "category": [
         "UC 6 - Fiery Showdown",
         "UC 7 - Infernal Crisis",
-        "UC 8 - Soul Melter",
         "Blocked Ultimate Choice"
       ],
       "requires": "|Ultimate Spice Level UP:6|"
@@ -7719,7 +7716,6 @@
         "UC 5 - Sizzling Threat",
         "UC 6 - Fiery Showdown",
         "UC 7 - Infernal Crisis",
-        "UC 8 - Soul Melter",
         "Blocked Ultimate Choice"
       ],
       "requires": "|Ultimate Spice Level UP|"
@@ -7735,7 +7731,6 @@
         "UC 5 - Sizzling Threat",
         "UC 6 - Fiery Showdown",
         "UC 7 - Infernal Crisis",
-        "UC 8 - Soul Melter",
         "Blocked Ultimate Choice"
       ],
       "requires": "|Ultimate Spice Level UP|"
@@ -7758,7 +7753,6 @@
       "category": [
         "UC 6 - Fiery Showdown",
         "UC 7 - Infernal Crisis",
-        "UC 8 - Soul Melter",
         "Blocked Ultimate Choice"
       ],
       "requires": "|Ultimate Spice Level UP:6|"
@@ -7773,7 +7767,6 @@
         "UC 5 - Sizzling Threat",
         "UC 6 - Fiery Showdown",
         "UC 7 - Infernal Crisis",
-        "UC 8 - Soul Melter",
         "Blocked Ultimate Choice"
       ],
       "requires": "|Ultimate Spice Level UP:2|"
@@ -7811,7 +7804,6 @@
       "category": [
         "UC 6 - Fiery Showdown",
         "UC 7 - Infernal Crisis",
-        "UC 8 - Soul Melter",
         "Blocked Ultimate Choice"
       ],
       "requires": "|Ultimate Spice Level UP:6|"
@@ -7821,7 +7813,6 @@
       "region": "The Ultimate Choice",
       "category": [
         "UC 7 - Infernal Crisis",
-        "UC 8 - Soul Melter",
         "Blocked Ultimate Choice"
       ],
       "requires": "|Ultimate Spice Level UP:7|"
@@ -7831,7 +7822,6 @@
       "region": "The Ultimate Choice",
       "category": [
         "UC 7 - Infernal Crisis",
-        "UC 8 - Soul Melter",
         "Blocked Ultimate Choice"
       ],
       "requires": "|Ultimate Spice Level UP:7|"
@@ -7843,7 +7833,6 @@
         "UC 5 - Sizzling Threat",
         "UC 6 - Fiery Showdown",
         "UC 7 - Infernal Crisis",
-        "UC 8 - Soul Melter",
         "Blocked Ultimate Choice"
       ],
       "requires": "|Ultimate Spice Level UP:5|"
@@ -7854,7 +7843,6 @@
       "category": [
         "UC 6 - Fiery Showdown",
         "UC 7 - Infernal Crisis",
-        "UC 8 - Soul Melter",
         "Blocked Ultimate Choice"
       ],
       "requires": "|Ultimate Spice Level UP:6|"
@@ -7894,6 +7882,114 @@
         "Blocked Ultimate Choice"
       ],
       "requires": "|Ultimate Spice Level UP:7| AND |Star Allies Sparkler|"
+    },
+    {
+      "name": "Soul Melter - Yggy Woods",
+      "region": "Soul Melter",
+      "category": [
+        "UC 8 - Soul Melter",
+        "Blocked Ultimate Choice"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Soul Melter - Ambush Formation C",
+      "region": "Soul Melter",
+      "category": [
+        "UC 8 - Soul Melter",
+        "Blocked Ultimate Choice"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Soul Melter - Ambush Formation D",
+      "region": "Soul Melter",
+      "category": [
+        "UC 8 - Soul Melter",
+        "Blocked Ultimate Choice"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Soul Melter - King Dedede",
+      "region": "Soul Melter",
+      "category": [
+        "UC 8 - Soul Melter",
+        "Blocked Ultimate Choice"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Soul Melter - Meta Knight",
+      "region": "Soul Melter",
+      "category": [
+        "UC 8 - Soul Melter",
+        "Blocked Ultimate Choice"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Soul Melter - Goldon & Silvox",
+      "region": "Soul Melter",
+      "category": [
+        "UC 8 - Soul Melter",
+        "Blocked Ultimate Choice"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Soul Melter - Twin Kracko",
+      "region": "Soul Melter",
+      "category": [
+        "UC 8 - Soul Melter",
+        "Blocked Ultimate Choice"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Soul Melter - Francisca (Blizzno Moon)",
+      "region": "Soul Melter",
+      "category": [
+        "UC 8 - Soul Melter",
+        "Blocked Ultimate Choice"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Soul Melter - Flamberge (Sizzlai Moon)",
+      "region": "Soul Melter",
+      "category": [
+        "UC 8 - Soul Melter",
+        "Blocked Ultimate Choice"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Soul Melter - Zan Partizanne (The Divine Terminus)",
+      "region": "Soul Melter",
+      "category": [
+        "UC 8 - Soul Melter",
+        "Blocked Ultimate Choice"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Soul Melter - Hyness",
+      "region": "Soul Melter",
+      "category": [
+        "UC 8 - Soul Melter",
+        "Blocked Ultimate Choice"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Soul Melter - Morpho Knight",
+      "region": "Soul Melter",
+      "category": [
+        "UC 8 - Soul Melter",
+        "Blocked Ultimate Choice"
+      ],
+      "requires": ""
     },
     {
       "name": "Soul Melter - Void Termina - First Movement",
