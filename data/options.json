@@ -218,7 +218,7 @@
             ],
             "type": "Toggle",
             "hidden": false,
-            "default": false,
+            "default": true,
             "group": "Sanity Options" 
         },
         "one_up_sanity":{
@@ -301,7 +301,7 @@
             ],
             "type": "Toggle",
             "hidden": false,
-            "default": false,
+            "default": true,
             "group": "Heroes in Another Dimension" 
         },
         "hiad_unify_sanity":{
