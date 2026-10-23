@@ -14,7 +14,7 @@
 
 ## Highly Recommended
 
-&#x20;- Universal Tracker (For handling required item amounts)
+  - Universal Tracker (For handling required item amounts)
 
 
 
