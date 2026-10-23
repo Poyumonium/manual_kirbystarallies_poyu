@@ -132,7 +132,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     else:
         shuffle(abilityListTrue)
         # Add Mage-Sisters after shuffle if they're supposed to be last
-        if world.options.last_heart_level_is_magesisters.value == True:
+        if world.options.last_heart_level_is_magesisters.value == True and (world.options.unify_magesisters == False or world.options.enable_heroes_in_another_dimension.value == False):
             abilityListTrue.append("The Three Mage-Sisters")
 
     stageList: list[str] = [
