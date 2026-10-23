@@ -12,7 +12,7 @@
 
 
 
-## Highly Recommended
+## Highly, HIGHLY Recommended
 
   - Universal Tracker (For handling required item amounts)
 
