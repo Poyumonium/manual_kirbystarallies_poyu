@@ -168,7 +168,7 @@
         },
         "last_heart_level_is_magesisters":{
             "description": [
-                "If allies are locked behind Friend Hearts, should The Three Mage Sisters be the last ally you unlock?",
+                "If allies are locked behind Friend Hearts, should The Three Mage-Sisters be the last ally you unlock?",
                 "Ignored if 'unify_magesisters' is set to true."
             ],
             "type": "Toggle",
