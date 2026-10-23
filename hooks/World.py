@@ -79,6 +79,9 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
     item_config["No Jumps"] = world.options.trap_no_jumps.value
     item_config["Sleep"] = world.options.trap_sleep.value
     item_config["Flip Controller"] = world.options.trap_flip_controller.value
+    item_config["Friend Heart"] = {"progression": world.options.friend_heart_amount.value, "useful": world.options.extra_friend_hearts.value}
+    item_config["Heart Spear Piece"] = {"progression": world.options.heart_spear_piece_amount.value*4, "useful": world.options.extra_heart_spear_pieces.value}
+    item_config["Ultimate Spice Level UP"] = {"progression": 9, "useful": world.options.extra_spice_levels.value}
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
@@ -234,26 +237,26 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     # Use this hook to remove items from the item pool
     itemNamesToRemove: list[str] = [] # List of item names
-    heart = 0
-    while heart < world.options.friend_heart_amount.value - 10:
-        item_pool.append(world.create_item("Friend Heart"))
-        heart += 1
-    heart = 0
-    while heart < world.options.extra_friend_hearts.value:
-        item_pool.append(world.create_item("Friend Heart"))
-        heart += 1
-    piece = 0
-    while piece < (world.options.heart_spear_piece_amount.value - 2)*4:
-        item_pool.append(world.create_item("Heart Spear Piece"))
-        piece += 1
-    piece = 0
-    while piece < world.options.extra_heart_spear_pieces.value:
-        item_pool.append(world.create_item("Heart Spear Piece"))
-        piece += 1
-    spice = 0
-    while spice < world.options.extra_spice_levels.value:
-        item_pool.append(world.create_item("Ultimate Spice Level UP"))
-        spice += 1
+    # heart = 0
+    # while heart < world.options.friend_heart_amount.value - 10:
+    #     item_pool.append(world.create_item("Friend Heart"))
+    #     heart += 1
+    # heart = 0
+    # while heart < world.options.extra_friend_hearts.value:
+    #     item_pool.append(world.create_item("Friend Heart"))
+    #     heart += 1
+    # piece = 0
+    # while piece < (world.options.heart_spear_piece_amount.value - 2)*4:
+    #     item_pool.append(world.create_item("Heart Spear Piece"))
+    #     piece += 1
+    # piece = 0
+    # while piece < world.options.extra_heart_spear_pieces.value:
+    #     item_pool.append(world.create_item("Heart Spear Piece"))
+    #     piece += 1
+    # spice = 0
+    # while spice < world.options.extra_spice_levels.value:
+    #     item_pool.append(world.create_item("Ultimate Spice Level UP"))
+    #     spice += 1
 
     # Establish unified stage dictionaries
     moonDict = {

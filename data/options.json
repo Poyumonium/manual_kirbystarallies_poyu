@@ -59,7 +59,7 @@
                 "Since there are four Heart Spears in total, the world will generate at least 4 times this amount."
             ],
             "range_start": 2,
-            "default": 16,
+            "default": 8,
             "range_end": 100,
             "group": "Collectible Amounts"
         },
@@ -69,7 +69,7 @@
                 "How many additional Heart Spear Pieces will be generated?"
             ],
             "range_start": 0,
-            "default": 64,
+            "default": 32,
             "range_end": 400,
             "group": "Collectible Amounts"
         },
@@ -101,7 +101,7 @@
                 "If you plan to challenge Soul Melter EX, you will need the three Extraordinary Components in addition to the nine default spice levels."
             ],
             "range_start": 0,
-            "default": 6,
+            "default": 3,
             "range_end": 30,
             "group": "Collectible Amounts"
         },
@@ -213,17 +213,17 @@
         },
         "picture_piece_sanity":{
             "description": [
-                "Will the common picture pieces found in levels have checks?",
+                "Will the common picture pieces found in levels have checks? (363 locations)",
                 "Does not apply to any pieces that are RNG dependent."
             ],
             "type": "Toggle",
             "hidden": false,
-            "default": true,
+            "default": false,
             "group": "Sanity Options" 
         },
         "one_up_sanity":{
             "description": [
-                "Will the extra life items have checks?",
+                "Will the extra life items have checks? (96 locations)",
                 "Does not apply to any lives that are RNG dependent."
             ],
             "type": "Toggle",
@@ -233,12 +233,12 @@
         },
         "blue_star_sanity":{
             "description": [
-                "Will blue point stars have checks?",
+                "Will blue point stars have checks? (68 locations)",
                 "Does not apply to any stars that are RNG dependent."
             ],
             "type": "Toggle",
             "hidden": false,
-            "default": false,
+            "default": true,
             "group": "Sanity Options" 
         },
         "enable_heroes_in_another_dimension":{
@@ -297,7 +297,7 @@
         },
         "hiad_friend_heart_sanity":{
             "description": [
-                "Will the collectible Friend Hearts found in Heroes in Another Dimension have checks?"
+                "Will the collectible Friend Hearts found in Heroes in Another Dimension have checks? (120 locations)"
             ],
             "type": "Toggle",
             "hidden": false,
@@ -306,11 +306,12 @@
         },
         "hiad_unify_sanity":{
             "description": [
-                "Will the Story Mode sanity options (1ups, pieces, etc.) apply to Heroes in Another Dimension?"
+                "Will the Story Mode sanity options (1ups, pieces, etc.) apply to Heroes in Another Dimension?",
+                "Includes 78 Picture Pieces, 11 1-Ups, and 12 Blue Point Stars"
             ],
             "type": "Toggle",
             "hidden": false,
-            "default": true,
+            "default": false,
             "group": "Heroes in Another Dimension" 
         },
         "enable_ultimate_choice":{
@@ -334,7 +335,7 @@
             ],
             "type": "Range",
             "range_start": 0,
-            "default": 10,
+            "default": 0,
             "range_end": 99,
             "group": "Trap Options" 
         },
@@ -344,7 +345,7 @@
             ],
             "type": "Range",
             "range_start": 0,
-            "default": 10,
+            "default": 0,
             "range_end": 99,
             "group": "Trap Options" 
         },
@@ -354,7 +355,7 @@
             ],
             "type": "Range",
             "range_start": 0,
-            "default": 10,
+            "default": 0,
             "range_end": 99,
             "group": "Trap Options" 
         },
@@ -364,7 +365,7 @@
             ],
             "type": "Range",
             "range_start": 0,
-            "default": 5,
+            "default": 0,
             "range_end": 99,
             "group": "Trap Options" 
         },
@@ -374,7 +375,7 @@
             ],
             "type": "Range",
             "range_start": 0,
-            "default": 10,
+            "default": 0,
             "range_end": 99,
             "group": "Trap Options" 
         },
@@ -405,7 +406,7 @@
             ],
             "type": "Range",
             "range_start": 0,
-            "default": 10,
+            "default": 0,
             "range_end": 99,
             "group": "Trap Options" 
         }
