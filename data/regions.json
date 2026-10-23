@@ -98,12 +98,12 @@
   "Soul Melter EX": {
     "starting": true,
     "connects_to": [],
-    "requires": "|Ultimate Spice Level UP:9| AND |@Extraordinary Device:3| AND ({hasMain()})"
+    "requires": "|Ultimate Spice Level UP:9| AND ({completeExDevice()}) AND ({hasMain()})"
   },
   "Soul Melter EX Goal": {
     "starting": true,
     "connects_to": [],
-    "requires": "|Ultimate Spice Level UP:9| AND |@Extraordinary Device:3| AND |Star Allies Sparkler| AND ({hasMain()})"
+    "requires": "|Ultimate Spice Level UP:9| AND ({completeExDevice()}) AND |Star Allies Sparkler| AND ({hasMain()})"
   },
   "Ability Planet Lobby": {
     "starting": true,

@@ -261,3 +261,6 @@ def heartPiercer(world: World, state: CollectionState, player: int):
     if world.options.hiad_all_dimensions_required.value == True:
         return "|First Spear's Aid| AND |Second Spear's Aid| AND |Third Spear's Aid| AND |Fourth Spear's Aid|"
     return True
+
+def completeExDevice():
+    return "|Extraordinary Component - 'A' Button| AND |Extraordinary Component - '-' Button| AND |Extraordinary Component - D-Pad|"

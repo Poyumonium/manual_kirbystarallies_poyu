@@ -30,11 +30,7 @@ import logging
 ## The fill_slot_data method will be used to send data to the Manual client for later use, like deathlink.
 ########################################################################################
 
-abilityListTrue: list[str] = [
-        "Beam", "Beetle", "Bomb", "Cleaning", "Cook", "Cutter", "ESP", "Fighter", "Fire", "Hammer", "Ice", "Ninja", "Parasol", "Plasma", 
-        "Stone", "Suplex", "Sword", "Water", "Whip", "Wing", "Yo-Yo", "Artist", "Spider", "Staff",
-        "Bandana Waddle Dee", "Rick & Kine & Coo", "Marx", "Gooey", "Adeleine & Ribbon", "Dark Meta Knight", "Daroach", "Magolor", "Taranza", "Susie", 
-        "Crash", "Mike", "Festival"]
+
 
 # Use this function to change the valid filler items to be created to replace item links or starting items.
 # Default value is the `filler_item_name` from game.json
@@ -101,26 +97,27 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         allyList.append("Meta Knight")
         dreamFriendList.append("King Dedede")
         dreamFriendList.append("Meta Knight")
-        abilityListTrue.append("Meta Knight")
-        abilityListTrue.append("King Dedede")
     if world.options.unify_magesisters == False or world.options.enable_heroes_in_another_dimension.value == False:
         if world.options.unlock_allies_with_hearts.value == False or world.options.last_heart_level_is_magesisters.value == False:
             allyList.append("The Three Mage-Sisters")
             dreamFriendList.append("The Three Mage-Sisters")
-            abilityListTrue.append("The Three Mage-Sisters")
     shuffle(allyList)
     startAllyList: list[str] = allyList.copy()
+    abilityListTrue: list[str] = allyList.copy()
     del startAllyList[world.options.starting_ally_count:]
+    del abilityListTrue[:world.options.starting_ally_count]
+
     # Add allies to starting pool
     for a in startAllyList:
         item = next(i for i in item_pool if i.name == a)
         # print(item)
         remove_specific_item(item_pool, item)
         world.push_precollected(world.create_item(a))
-        abilityListTrue.remove(a)
-    # Add duplicate abilities
+
+    # Add non-ally abilities to both base ability list and the functional ability list (for determining New Friend locations)
     for a in nonAllyAbilities:
         abilityList.append(a)
+        abilityListTrue.append(a)
     # Only add dupes if friend heart unlocking is disabled
     if world.options.unlock_allies_with_hearts.value == False:
         for i in range(world.options.dupe_ability_count):
@@ -130,10 +127,51 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             for d in dreamFriendList:
                 item_pool.append(world.create_item(d))
     else:
+        # FRIEND HEART UNLOCKS:
+        # Shuffle abilityListTrue again
         shuffle(abilityListTrue)
-        # Add Mage-Sisters after shuffle if they're supposed to be last
-        if world.options.last_heart_level_is_magesisters.value == True and (world.options.unify_magesisters == False or world.options.enable_heroes_in_another_dimension.value == False):
+        # Add Mage-Sisters if they're set to be last:
+        if (world.options.unify_magesisters == False or world.options.enable_heroes_in_another_dimension.value == False) and world.options.last_heart_level_is_magesisters.value == True:
             abilityListTrue.append("The Three Mage-Sisters")
+        friendUnlockNameBeginning = "New Friend "
+        friendUnlockNameEnd = " - ???? of the Stars"
+        allyCount = len(abilityListTrue)
+        # for item in item_pool:
+        #     for abilityName in abilityListTrue:
+        #         if item.name == abilityName:
+        #             allyCount += 1
+        for pre in world.options.start_inventory_from_pool.value:
+            startPoolItem = ""
+            startPoolItem = next((a for a in abilityListTrue if a == pre), "")
+            if startPoolItem != "":
+                allyCount -= 1
+                abilityListTrue.remove(startPoolItem)
+                # print(startPoolItem)
+    
+        print(allyCount)
+        # Use this hook to remove locations from the world
+        locationNamesToRemove: list[str] = [] # List of location names
+        locationRemoveCount = allyCount + 1
+        while locationRemoveCount <= 40:
+            locationNamesToRemove.append(friendUnlockNameBeginning + str(locationRemoveCount) + friendUnlockNameEnd)
+            locationRemoveCount += 1
+
+        # Add your code here to calculate which locations to remove
+        for region in multiworld.regions:
+            if region.player == player:
+                for location in list(region.locations):
+                    if location.name in locationNamesToRemove:
+                        # print(location.name)
+                        region.locations.remove(location)
+        # Add allies to pool
+        for a in range(allyCount):
+            itemName = abilityListTrue[a]
+            print(itemName)
+            locationName = friendUnlockNameBeginning + str(a+1) + friendUnlockNameEnd
+            location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == locationName)
+            item_to_place = next(i for i in item_pool if i.name == itemName)
+            location.place_locked_item(item_to_place)
+            remove_specific_item(item_pool, item_to_place)
 
     stageList: list[str] = [
             "Green Gardens", "Donut Dome", "Honey Hill", "Fruity Forest", "Clash at Castle Dedede",
@@ -177,6 +215,23 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    # from random import shuffle
+    # abilityListTrue: list[str] = [
+    #     "Beam", "Beetle", "Bomb", "Cleaning", "Cook", "Cutter", "ESP", "Fighter", "Fire", "Hammer", "Ice", "Ninja", "Parasol", "Plasma", 
+    #     "Stone", "Suplex", "Sword", "Water", "Whip", "Wing", "Yo-Yo", "Artist", "Spider", "Staff",
+    #     "Bandana Waddle Dee", "Rick & Kine & Coo", "Marx", "Gooey", "Adeleine & Ribbon", "Dark Meta Knight", "Daroach", "Magolor", "Taranza", "Susie", 
+    #     "Crash", "Mike", "Festival"]
+
+    # # Append ununified allies to ablity list:
+    # if world.options.unify_dedede_metaknight.value == False:
+    #     abilityListTrue.append("King Dedede")
+    #     abilityListTrue.append("Meta Knight")
+    # if (world.options.enable_heroes_in_another_dimension == False or world.options.unify_magesisters.value == False) and world.options.last_heart_level_is_magesisters.value == False:
+    #     abilityListTrue.append("The Three Mage-Sisters")
+    # shuffle(abilityListTrue)
+    # if (world.options.enable_heroes_in_another_dimension == False or world.options.unify_magesisters.value == False) and world.options.last_heart_level_is_magesisters.value == True:
+    #     abilityListTrue.append("The Three Mage-Sisters")
+
     # Use this hook to remove items from the item pool
     itemNamesToRemove: list[str] = [] # List of item names
     heart = 0
@@ -258,45 +313,46 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Dimension IV - Clear")
         location.place_locked_item(world.create_item("Fourth Spear's Aid"))
     
-    if world.options.unlock_allies_with_hearts.value == True:
-        friendUnlockNameBeginning = "New Friend "
-        friendUnlockNameEnd = " - ???? of the Stars"
-        allyCount = len(abilityListTrue)
-        # for item in item_pool:
-        #     for abilityName in abilityListTrue:
-        #         if item.name == abilityName:
-        #             allyCount += 1
-        for pre in world.options.start_inventory_from_pool.value:
-            startPoolItem = ""
-            startPoolItem = next((a for a in abilityListTrue if a == pre), "")
-            if startPoolItem != "":
-                allyCount -= 1
-                abilityListTrue.remove(startPoolItem)
-                # print(startPoolItem)
+    # if world.options.unlock_allies_with_hearts.value == True:
+    #     friendUnlockNameBeginning = "New Friend "
+    #     friendUnlockNameEnd = " - ???? of the Stars"
+    #     allyCount = len(abilityListTrue)
+    #     # for item in item_pool:
+    #     #     for abilityName in abilityListTrue:
+    #     #         if item.name == abilityName:
+    #     #             allyCount += 1
+    #     for pre in world.options.start_inventory_from_pool.value:
+    #         startPoolItem = ""
+    #         startPoolItem = next((a for a in abilityListTrue if a == pre), "")
+    #         if startPoolItem != "":
+    #             allyCount -= 1
+    #             abilityListTrue.remove(startPoolItem)
+    #             # print(startPoolItem)
     
-        print(allyCount)
-        # Use this hook to remove locations from the world
-        locationNamesToRemove: list[str] = [] # List of location names
-        locationRemoveCount = allyCount + 1
-        while locationRemoveCount <= 40:
-            locationNamesToRemove.append(friendUnlockNameBeginning + str(locationRemoveCount) + friendUnlockNameEnd)
-            locationRemoveCount += 1
+    #     print(allyCount)
+    #     # Use this hook to remove locations from the world
+    #     locationNamesToRemove: list[str] = [] # List of location names
+    #     locationRemoveCount = allyCount + 1
+    #     while locationRemoveCount <= 40:
+    #         locationNamesToRemove.append(friendUnlockNameBeginning + str(locationRemoveCount) + friendUnlockNameEnd)
+    #         locationRemoveCount += 1
 
-        # Add your code here to calculate which locations to remove
-        for region in multiworld.regions:
-            if region.player == player:
-                for location in list(region.locations):
-                    if location.name in locationNamesToRemove:
-                        # print(location.name)
-                        region.locations.remove(location)
-        # Shuffle and add allies to pool
-        for a in range(allyCount):
-            itemName = abilityListTrue[a]
-            locationName = friendUnlockNameBeginning + str(a+1) + friendUnlockNameEnd
-            location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == locationName)
-            item_to_place = next(i for i in item_pool if i.name == itemName)
-            location.place_locked_item(item_to_place)
-            remove_specific_item(item_pool, item_to_place)
+    #     # Add your code here to calculate which locations to remove
+    #     for region in multiworld.regions:
+    #         if region.player == player:
+    #             for location in list(region.locations):
+    #                 if location.name in locationNamesToRemove:
+    #                     # print(location.name)
+    #                     region.locations.remove(location)
+    #     # Shuffle and add allies to pool
+    #     for a in range(allyCount):
+    #         itemName = abilityListTrue[a]
+    #         print(itemName)
+    #         locationName = friendUnlockNameBeginning + str(a+1) + friendUnlockNameEnd
+    #         location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == locationName)
+    #         item_to_place = next(i for i in item_pool if i.name == itemName)
+    #         location.place_locked_item(item_to_place)
+    #         remove_specific_item(item_pool, item_to_place)
 
     # Add your code here to calculate which items to remove.
     #
