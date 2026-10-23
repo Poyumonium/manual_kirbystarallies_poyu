@@ -151,7 +151,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                 abilityListTrue.remove(startPoolItem)
                 # print(startPoolItem)
     
-        print(allyCount)
+        # print(allyCount)
         # Use this hook to remove locations from the world
         locationNamesToRemove: list[str] = [] # List of location names
         locationRemoveCount = allyCount + 1
@@ -169,7 +169,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         # Add allies to pool
         for a in range(allyCount):
             itemName = abilityListTrue[a]
-            print(itemName)
+            # print(itemName)
             locationName = friendUnlockNameBeginning + str(a+1) + friendUnlockNameEnd
             location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == locationName)
             item_to_place = next(i for i in item_pool if i.name == itemName)
