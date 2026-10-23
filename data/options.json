@@ -384,7 +384,7 @@
             ],
             "type": "Range",
             "range_start": 0,
-            "default": 5,
+            "default": 0,
             "range_end": 99,
             "group": "Trap Options" 
         },
@@ -394,7 +394,7 @@
             ],
             "type": "Range",
             "range_start": 0,
-            "default": 5,
+            "default": 0,
             "range_end": 99,
             "group": "Trap Options" 
         },
@@ -405,7 +405,7 @@
             ],
             "type": "Range",
             "range_start": 0,
-            "default": 5,
+            "default": 10,
             "range_end": 99,
             "group": "Trap Options" 
         }
