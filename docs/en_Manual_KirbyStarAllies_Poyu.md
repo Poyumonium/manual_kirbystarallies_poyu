@@ -50,6 +50,32 @@ In addition to stages and allies, there are various other important collectibles
  - **Soul Melter - Clear**: Defeat Void Soul at the end of Soul Melter. Requires completing the Star Allies Sparkler and collecting at least 8 Ultimate Spice Levels.
  - **Soul Melter EX - Clear**: Defeat the Astral Birth at the end of Soul Melter EX. Requires completing the Star Allies Sparkler, collecting 9 Ultimate Spice Levels, and obtaining the 3 Extraordinary Components.
 
+## What do the locations look like?
+
+Items in the manual are randomized among the following:
+
+### Locations:
+
+ - Stage Clears
+ - Rare Picture Pieces
+ - Big Switches
+
+### Optional Locations:
+
+ - Common Picture Pieces
+ - 1-Ups
+ - Blue Point Stars
+ - Friend Hearts (Heroes in Another Dimension)
+ - Dimension Clears
+ - Ultimate Choice Boss Victories
+
+### Manual Client Exclusive:
+
+These can be unlocked in the client as soon as you meet the requirements:
+
+ - Heart Spear Completion (gather enough Heart Spear Pieces)
+ - Ally Unlock List (if enabled, gather enough Friend Hearts to recruit each ally)
+
 ## What does the location logic expect from me?
 It's expected you have a moderate understanding of which abilities can accomplish what tasks. This may include some obscure interactions, like knowing Icicle Lance can cut burning chains, or that some of Vividria's paintings can pound stakes. Depending on how limited your ally selection is, some multiplayer intervention may be required to circumvent the AI's decision-making. 
 
