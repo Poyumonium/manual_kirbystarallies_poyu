@@ -64,7 +64,7 @@ I'm considering delegating some of these to a "hard logic" option, and I'd like 
  - No Jumps: You can no longer jump, hover, fly, or take any related action with the A button (or whichever relevant button corresponds to your controller) for the rest of the stage. Attacks that increase your height are completely fine. Recommended you don't include too many of these, or at least ensure you can easily access an ability that grants height, like Sword or Whip.
  - Flip Controller: Play the rest of the stage with your controller flipped upsidedown. There are multiple ways to interpret this. Go with whichever you think is silliest.
 ### Recommended Rules for Traps:
- - Any of the above traps can be substituted for simply exiting the level. Useful if you really want to preserve your current team.
+ - Any of the above traps can be substituted with simply exiting the level. Useful if you really want to preserve your current team.
  - All ally/ability removal traps won't go through during moments where it'd be impossible. This includes Friend Actions, The Ultimate Choice, and Heroes in Another Dimension (in the case of abilities).
  - In general, it may be wise to not count ANY traps that'd devistate a long portion of gameplay, like "Sleep" in a particularly close run of Soul Melter EX, or "No Jumps" just before you reach Dimension II's Friend Train. They're meant to be fun challenges, not tedious roadblocks. If only allowing them during Story Mode makes the most sense for your playstyle, then do that.
 
