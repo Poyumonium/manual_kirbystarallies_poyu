@@ -52,6 +52,8 @@ Kirby Star Allies is primarily a multiplayer game. While the vast majority of ch
 
 If you wish to run a single instance of this manual apworld with local co-op, make sure you have at least one ally to start with so your buddy can join right away. It might be worth considering adding a specific character or ability to your starting inventory if there's someone they really like playing as (start_inventory_from_pool is recommended).  
 
+Also, probably best to disable/ignore all the "Remove X Ally" traps if this is what you're going for.
+
 
 
 ## Game Troubleshooting
