@@ -46,9 +46,11 @@
 
 
 
-## Multiplayer Manual
+## About Multiplayer
 
-Kirby: Star Allies is a 2D sidescrolling action game for the Nintendo Switch family of systems. But not only can you play it by yourself. In fact, you and up to three of your friends can pal around in local co-op!
+Kirby Star Allies is primarily a multiplayer game. While the vast majority of checks and logic scenarios should be entirely possible in single player, some intervention might be necessary to get around some of the AI's eccentricities (ex. Adeleine and Ribbon will usually prioritize Rock Painter over Curling if you have Stone). Keep this in mind if you happen to get stuck somewhere. Some solutions won't always be obvious.
+
+If you wish to run a single instance of this manual apworld with local co-op, make sure you have at least one ally to start with so your buddy can join right away. It might be worth considering adding a specific character or ability to your starting inventory if there's someone they really like playing as (start_inventory_from_pool is recommended).  
 
 
 
