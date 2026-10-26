@@ -553,7 +553,8 @@
       "category": [
         "Copy Ability",
         "Ally",
-        "Friend Throw"
+        "Friend Throw",
+        "Screen Clear"
       ],
       "progression": true
     },
@@ -561,9 +562,10 @@
       "count": 1,
       "name": "Crash",
       "category": [
-        "Copy Ability"
+        "Copy Ability",
+        "Screen Clear"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -637,9 +639,10 @@
       "count": 1,
       "name": "Mike",
       "category": [
-        "Copy Ability"
+        "Copy Ability",
+        "Screen Clear"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -769,7 +772,8 @@
         "Copy Ability",
         "Ally",
         "Paint",
-        "Stake"
+        "Stake",
+        "Screen Clear"
       ],
       "progression": true
     },
@@ -777,9 +781,10 @@
       "count": 1,
       "name": "Festival",
       "category": [
-        "Copy Ability"
+        "Copy Ability",
+        "Screen Clear"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1020,7 +1025,8 @@
         "Cold",
         "Splash",
         "Friend Throw",
-        "Teleport"
+        "Teleport",
+        "Screen Clear"
       ],
       "progression": true
     },

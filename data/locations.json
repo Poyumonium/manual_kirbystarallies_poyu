@@ -3595,7 +3595,7 @@
         "Pop Star - Echo's Edge",
         "Picture Piece"
       ],
-      "requires": "(|@Sizzle| OR |Cook|)"
+      "requires": "(|@Sizzle| OR |Cook|) OR |@Screen Clear| OR |Staff| OR |Plasma| OR |ESP| OR |Marx| OR |Taranza| OR (|@Zap| AND (|Susie| OR |Yo-Yo|))"
     },
     {
       "name": "Echo's Edge - Room 2 (Piece 2) - Fourth Igloo Ice Pit",
@@ -4022,7 +4022,7 @@
         "Pop Star - Duplex Dream",
         "Picture Piece"
       ],
-      "requires": "(|@Sizzle| OR |Cook|) OR |@Long|"
+      "requires": "(|@Sizzle| OR |Cook|) OR |@Screen Clear| OR |Staff| OR |Plasma| OR |ESP| OR |Marx| OR |Taranza| OR (|@Zap| AND (|Susie| OR |Yo-Yo|))"
     },
     {
       "name": "Duplex Dream - Room 2 (Piece 2) - Frozen Switch 2",
@@ -4031,7 +4031,7 @@
         "Pop Star - Duplex Dream",
         "Picture Piece"
       ],
-      "requires": "(|@Sizzle| OR |Cook|) OR |@Long|"
+      "requires": "(|@Sizzle| OR |Cook|) OR |@Screen Clear| OR |Staff| OR |Plasma| OR |ESP| OR |Marx| OR |Taranza| OR (|@Zap| AND (|Susie| OR |Yo-Yo|))"
     },
     {
       "name": "Duplex Dream - Room 2 (Piece 3) - Frozen Switch 3",
@@ -4040,7 +4040,7 @@
         "Pop Star - Duplex Dream",
         "Picture Piece"
       ],
-      "requires": "(|@Sizzle| OR |Cook|) OR |@Long|"
+      "requires": "(|@Sizzle| OR |Cook|) OR |@Screen Clear| OR |Staff| OR |Plasma| OR |ESP| OR |Marx| OR |Taranza| OR (|@Zap| AND (|Susie| OR |Yo-Yo|))"
     },
     {
       "name": "Duplex Dream - Room 4 (Piece 1) - Ice Path Near Lava",

@@ -137,6 +137,9 @@
     "Teleport": {
         "hidden": true
     },
+    "Screen Clear": {
+        "hidden": true
+    },
     "Final Stage": {
         "hidden": true
     },
