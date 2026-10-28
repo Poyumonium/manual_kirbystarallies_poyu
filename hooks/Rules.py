@@ -52,6 +52,7 @@ def friendHeartBalance(world: World, state: CollectionState, player: int, friend
             if startPoolItem != "":
                 copyAbilityCount -= 1
                 abilityListTrue.remove(startPoolItem)
+        copyAbilityCount -= world.options.starting_ally_count.value
         copyAbilityCount = float(copyAbilityCount)
         heartRatio = float(friendLevel) / copyAbilityCount
         totalFriendHearts = int((float(world.options.ally_friend_heart_percent.value)/100.0) * world.options.friend_heart_amount.value)
