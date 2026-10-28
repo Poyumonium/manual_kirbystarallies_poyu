@@ -156,8 +156,8 @@
         "ally_friend_heart_percent":{
             "description": [
                 "What percentage of required Friend Hearts should be collected to unlock every ally?",
-                "May be set to a percent value higher than 100 in case you wish to factor in the extra Friend Hearts",
-                "(be wary of both required and extra amounts to avoid generation issues)",
+                "Setting a percent value higher than 100 will add additional 'progression' marked Friend Hearts to the item pool",
+                "(be sure to check how many locations are available to avoid generation issues)",
                 "(if unsure, keep this value at 100 or lower)"
             ],
             "type": "Range",

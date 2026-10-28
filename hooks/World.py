@@ -71,6 +71,10 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
+    highHeartPercent = world.options.ally_friend_heart_percent.value / 100.0
+    trueheartReq = world.options.friend_heart_amount.value
+    if highHeartPercent > 1.0 and world.options.unlock_allies_with_hearts.value == True:
+        trueheartReq = int(trueheartReq * highHeartPercent)
     item_config["Remove First Ally"] = world.options.trap_first_ally.value
     item_config["Remove Last Ally"] = world.options.trap_last_ally.value
     item_config["Remove Any Ally"] = world.options.trap_any_ally.value
@@ -79,7 +83,7 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
     item_config["No Jumps"] = world.options.trap_no_jumps.value
     item_config["Sleep"] = world.options.trap_sleep.value
     item_config["Flip Controller"] = world.options.trap_flip_controller.value
-    item_config["Friend Heart"] = {"progression": world.options.friend_heart_amount.value, "useful": world.options.extra_friend_hearts.value}
+    item_config["Friend Heart"] = {"progression": trueheartReq, "useful": world.options.extra_friend_hearts.value}
     item_config["Heart Spear Piece"] = {"progression": world.options.heart_spear_piece_amount.value*4, "useful": world.options.extra_heart_spear_pieces.value}
     item_config["Ultimate Spice Level UP"] = {"progression": 9, "useful": world.options.extra_spice_levels.value}
     return item_config
