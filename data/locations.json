@@ -3595,7 +3595,7 @@
         "Pop Star - Echo's Edge",
         "Picture Piece"
       ],
-      "requires": "(|@Sizzle| OR |Cook|) OR |@Screen Clear| OR |Staff| OR |Plasma| OR |ESP| OR |Marx| OR |Taranza| OR (|@Zap| AND (|Susie| OR |Yo-Yo|))"
+      "requires": "(|@Sizzle| OR |Cook|) OR |@Screen Clear| OR |Staff| OR |Plasma| OR |ESP| OR |Marx| OR |Taranza| OR (|@Zap| AND (|Susie| OR |Yo-Yo| OR |Sword|))"
     },
     {
       "name": "Echo's Edge - Room 2 (Piece 2) - Fourth Igloo Ice Pit",
@@ -4022,7 +4022,7 @@
         "Pop Star - Duplex Dream",
         "Picture Piece"
       ],
-      "requires": "(|@Sizzle| OR |Cook|) OR |@Screen Clear| OR |Staff| OR |Plasma| OR |ESP| OR |Marx| OR |Taranza| OR (|@Zap| AND (|Susie| OR |Yo-Yo|))"
+      "requires": "(|@Sizzle| OR |Cook|) OR |@Screen Clear| OR |Staff| OR |Plasma| OR |ESP| OR |Marx| OR |Taranza| OR (|@Zap| AND (|Susie| OR |Yo-Yo| OR |Sword|))"
     },
     {
       "name": "Duplex Dream - Room 2 (Piece 2) - Frozen Switch 2",
@@ -4031,7 +4031,7 @@
         "Pop Star - Duplex Dream",
         "Picture Piece"
       ],
-      "requires": "(|@Sizzle| OR |Cook|) OR |@Screen Clear| OR |Staff| OR |Plasma| OR |ESP| OR |Marx| OR |Taranza| OR (|@Zap| AND (|Susie| OR |Yo-Yo|))"
+      "requires": "(|@Sizzle| OR |Cook|) OR |@Screen Clear| OR |Staff| OR |Plasma| OR |ESP| OR |Marx| OR |Taranza| OR (|@Zap| AND (|Susie| OR |Yo-Yo| OR |Sword|))"
     },
     {
       "name": "Duplex Dream - Room 2 (Piece 3) - Frozen Switch 3",
@@ -4040,7 +4040,7 @@
         "Pop Star - Duplex Dream",
         "Picture Piece"
       ],
-      "requires": "(|@Sizzle| OR |Cook|) OR |@Screen Clear| OR |Staff| OR |Plasma| OR |ESP| OR |Marx| OR |Taranza| OR (|@Zap| AND (|Susie| OR |Yo-Yo|))"
+      "requires": "(|@Sizzle| OR |Cook|) OR |@Screen Clear| OR |Staff| OR |Plasma| OR |ESP| OR |Marx| OR |Taranza| OR (|@Zap| AND (|Susie| OR |Yo-Yo| OR |Sword|))"
     },
     {
       "name": "Duplex Dream - Room 4 (Piece 1) - Ice Path Near Lava",
@@ -4301,7 +4301,7 @@
         "Jambastion - Eastern Wall",
         "Picture Piece"
       ],
-      "requires": "(|@Zap| AND (|Whip| OR |Yo-Yo| OR |Staff| OR |Dark Meta Knight| OR |Marx|)) OR |Plasma| OR |ESP| OR |Beam| OR |Daroach| OR |Taranza|"
+      "requires": "(|@Zap| AND (|Whip| OR |Yo-Yo| OR |Staff| OR |Bandana Waddle Dee| OR |Dark Meta Knight| OR |Marx|)) OR |Plasma| OR |ESP| OR |Beam| OR |Daroach| OR |Taranza|"
     },
     {
       "name": "Eastern Wall - Room 2 (Piece 2) - Wire Gate 2",
@@ -4310,7 +4310,7 @@
         "Jambastion - Eastern Wall",
         "Picture Piece"
       ],
-      "requires": "(|@Zap| AND (|Whip| OR |Yo-Yo| OR |Staff| OR |Dark Meta Knight| OR |Marx|)) OR |Plasma| OR |ESP| OR |Beam| OR |Daroach| OR |Taranza|"
+      "requires": "(|@Zap| AND (|Whip| OR |Yo-Yo| OR |Staff| OR |Bandana Waddle Dee| OR |Dark Meta Knight| OR |Marx|)) OR |Plasma| OR |ESP| OR |Beam| OR |Daroach| OR |Taranza|"
     },
     {
       "name": "Eastern Wall - Room 3 (Piece 1) - Wire Gate Chest",
@@ -4319,7 +4319,7 @@
         "Jambastion - Eastern Wall",
         "Picture Piece"
       ],
-      "requires": "(|@Zap| AND |@Long|) OR |Plasma| OR |ESP| OR |Beam| OR |Adeleine & Ribbon| OR |Daroach| OR |Taranza|"
+      "requires": "(|@Zap| AND (|@Long| OR |Bomb| OR |Sword| OR |Hammer| OR |Ninja|)) OR |Plasma| OR |ESP| OR |Beam| OR |Adeleine & Ribbon| OR |Daroach| OR |Taranza|"
     },
     {
       "name": "Eastern Wall - Room 4 (Piece 1) - Post Mid-Boss Friend Throw",
@@ -4847,7 +4847,7 @@
       "category": [
         "Jambastion - Inner Sanctum"
       ],
-      "requires": "(|@Zap| AND (|Bomb| OR |Staff| OR |Marx|)) OR |ESP| OR |Magolor| OR |The Three Mage-Sisters|"
+      "requires": "(|@Zap| AND (|Bomb| OR |Staff| OR |Marx| OR |Bandana Waddle Dee|)) OR |ESP| OR |Magolor| OR |The Three Mage-Sisters|"
     },
     {
       "name": "Inner Sanctum - Room 2 (Piece 1) - Pit Crate",
@@ -4865,7 +4865,7 @@
         "Jambastion - Inner Sanctum",
         "Picture Piece"
       ],
-      "requires": "(|@Zap| AND (|Bomb| OR |Staff| OR |Marx|)) OR |ESP| OR |Magolor| OR |The Three Mage-Sisters|"
+      "requires": "(|@Zap| AND (|Bomb| OR |Staff| OR |Marx| OR |Bandana Waddle Dee|)) OR |ESP| OR |Magolor| OR |The Three Mage-Sisters|"
     },
     {
       "name": "Inner Sanctum - Room 2b (Piece 2) - Zap Bomb Puzzle 2",
@@ -4874,7 +4874,7 @@
         "Jambastion - Inner Sanctum",
         "Picture Piece"
       ],
-      "requires": "(|@Zap| AND (|Bomb| OR |Staff| OR |Marx|)) OR |ESP| OR |Magolor| OR |The Three Mage-Sisters|"
+      "requires": "(|@Zap| AND (|Bomb| OR |Staff| OR |Marx| OR |Bandana Waddle Dee|)) OR |ESP| OR |Magolor| OR |The Three Mage-Sisters|"
     },
     {
       "name": "Inner Sanctum - Room 2 (Piece 2) - Crate Beneath Floaty",
